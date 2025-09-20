@@ -54,5 +54,29 @@ namespace Modelos.Entidades
             add.Fill(dataTables);
             return dataTables;
         }
+
+        public bool ModificarServicio()
+        {
+            SqlConnection conexion = ConexionDB.conectar();
+            string comando = @"
+                UPDATE SERVICIOS 
+                SET nombreServicio = @NombreServicio, descripcionServicio = @DescripcionServicio
+                WHERE idServicio = @IdServicio;
+            ";
+            SqlCommand cmd = new SqlCommand(comando, conexion);
+            cmd.Parameters.AddWithValue("@IdServicio", idServicio);
+            cmd.Parameters.AddWithValue("@NombreServicio", nombreServicio);
+            cmd.Parameters.AddWithValue("@DescripcionServicio", descripcionServicio);
+            return cmd.ExecuteNonQuery() > 0;
+        }
+
+        public bool EliminarServicio()
+        {
+            SqlConnection conexion = ConexionDB.conectar();
+            string comando = "DELETE FROM SERVICIOS WHERE idServicio = @IdServicio;";
+            SqlCommand cmd = new SqlCommand(comando, conexion);
+            cmd.Parameters.AddWithValue("@IdServicio", idServicio);
+            return cmd.ExecuteNonQuery() > 0;
+        }
     }
 }

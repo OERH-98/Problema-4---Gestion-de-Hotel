@@ -43,6 +43,7 @@
             this.lblRol = new System.Windows.Forms.Label();
             this.lblHoraActual = new System.Windows.Forms.Label();
             this.pnlElemento = new System.Windows.Forms.Panel();
+            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.lblNombreSistemaUsuario = new LabelTransparente();
             this.lblTiempo = new LabelTransparente();
             this.pnl9 = new System.Windows.Forms.Panel();
@@ -56,11 +57,11 @@
             this.pnl3 = new System.Windows.Forms.Panel();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.pnl1 = new System.Windows.Forms.Panel();
-            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.pnlArriba.SuspendLayout();
             this.pnl7.SuspendLayout();
             this.pnlAbajo.SuspendLayout();
             this.pnlElemento.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.pnl9.SuspendLayout();
             this.pnl4.SuspendLayout();
             this.tbpnlBotones.SuspendLayout();
@@ -69,7 +70,6 @@
             this.pnl3.SuspendLayout();
             this.pnl2.SuspendLayout();
             this.pnl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlArriba
@@ -106,11 +106,11 @@
             this.btnModificarReserva.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnModificarReserva.FlatAppearance.BorderSize = 0;
             this.btnModificarReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModificarReserva.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.btnModificarReserva.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnModificarReserva.ForeColor = System.Drawing.Color.White;
-            this.btnModificarReserva.Location = new System.Drawing.Point(79, 51);
+            this.btnModificarReserva.Location = new System.Drawing.Point(96, 51);
             this.btnModificarReserva.Name = "btnModificarReserva";
-            this.btnModificarReserva.Size = new System.Drawing.Size(229, 76);
+            this.btnModificarReserva.Size = new System.Drawing.Size(212, 76);
             this.btnModificarReserva.TabIndex = 62;
             this.btnModificarReserva.Text = "Modificar//Eliminar Reserva";
             this.btnModificarReserva.TextColor = System.Drawing.Color.White;
@@ -304,6 +304,23 @@
             this.pnlElemento.Size = new System.Drawing.Size(664, 152);
             this.pnlElemento.TabIndex = 61;
             // 
+            // pbFotoUsuario
+            // 
+            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
+            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pbFotoUsuario.BorderSize = 4;
+            this.pbFotoUsuario.GradientAngle = 50F;
+            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
+            this.pbFotoUsuario.Name = "pbFotoUsuario";
+            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
+            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFotoUsuario.TabIndex = 58;
+            this.pbFotoUsuario.TabStop = false;
+            // 
             // lblNombreSistemaUsuario
             // 
             this.lblNombreSistemaUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -452,23 +469,6 @@
             this.pnl1.Size = new System.Drawing.Size(421, 178);
             this.pnl1.TabIndex = 59;
             // 
-            // pbFotoUsuario
-            // 
-            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
-            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pbFotoUsuario.BorderSize = 4;
-            this.pbFotoUsuario.GradientAngle = 50F;
-            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
-            this.pbFotoUsuario.Name = "pbFotoUsuario";
-            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
-            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFotoUsuario.TabIndex = 58;
-            this.pbFotoUsuario.TabStop = false;
-            // 
             // frmMenuOpcionRecepcionista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -489,6 +489,7 @@
             this.pnlAbajo.PerformLayout();
             this.pnlElemento.ResumeLayout(false);
             this.pnlElemento.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.pnl9.ResumeLayout(false);
             this.pnl4.ResumeLayout(false);
             this.tbpnlBotones.ResumeLayout(false);
@@ -497,7 +498,6 @@
             this.pnl3.ResumeLayout(false);
             this.pnl2.ResumeLayout(false);
             this.pnl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }

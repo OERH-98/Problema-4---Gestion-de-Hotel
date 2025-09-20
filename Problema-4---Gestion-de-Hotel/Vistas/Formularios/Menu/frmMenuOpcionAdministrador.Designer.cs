@@ -33,6 +33,7 @@
             this.lblTiempo = new LabelTransparente();
             this.lblNombreSistemaUsuario = new LabelTransparente();
             this.pnlElemento = new System.Windows.Forms.Panel();
+            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.tbpnlBotones = new System.Windows.Forms.TableLayoutPanel();
             this.pnl12 = new System.Windows.Forms.Panel();
             this.btnAcercaDe = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
@@ -65,8 +66,8 @@
             this.lblHoraActual = new System.Windows.Forms.Label();
             this.pnlArriba = new System.Windows.Forms.Panel();
             this.tmrHoraActual = new System.Windows.Forms.Timer(this.components);
-            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.pnlElemento.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.tbpnlBotones.SuspendLayout();
             this.pnl12.SuspendLayout();
             this.pnl11.SuspendLayout();
@@ -83,7 +84,6 @@
             this.pnl13.SuspendLayout();
             this.pnlAbajo.SuspendLayout();
             this.pnlArriba.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIndicador
@@ -136,6 +136,23 @@
             this.pnlElemento.Name = "pnlElemento";
             this.pnlElemento.Size = new System.Drawing.Size(664, 152);
             this.pnlElemento.TabIndex = 61;
+            // 
+            // pbFotoUsuario
+            // 
+            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
+            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pbFotoUsuario.BorderSize = 4;
+            this.pbFotoUsuario.GradientAngle = 50F;
+            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
+            this.pbFotoUsuario.Name = "pbFotoUsuario";
+            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
+            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFotoUsuario.TabIndex = 58;
+            this.pbFotoUsuario.TabStop = false;
             // 
             // tbpnlBotones
             // 
@@ -411,6 +428,7 @@
             this.btnModificarServicio.Text = "Modificar // Eliminar Servicios";
             this.btnModificarServicio.TextColor = System.Drawing.Color.White;
             this.btnModificarServicio.UseVisualStyleBackColor = false;
+            this.btnModificarServicio.Click += new System.EventHandler(this.btnModificarServicio_Click);
             // 
             // pnl6
             // 
@@ -618,23 +636,6 @@
             // 
             this.tmrHoraActual.Tick += new System.EventHandler(this.tmrHoraActual_Tick);
             // 
-            // pbFotoUsuario
-            // 
-            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
-            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pbFotoUsuario.BorderSize = 4;
-            this.pbFotoUsuario.GradientAngle = 50F;
-            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
-            this.pbFotoUsuario.Name = "pbFotoUsuario";
-            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
-            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFotoUsuario.TabIndex = 58;
-            this.pbFotoUsuario.TabStop = false;
-            // 
             // frmMenuOpcionAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -653,6 +654,7 @@
             this.Load += new System.EventHandler(this.frmMenuOpcion_Load);
             this.pnlElemento.ResumeLayout(false);
             this.pnlElemento.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.tbpnlBotones.ResumeLayout(false);
             this.pnl12.ResumeLayout(false);
             this.pnl11.ResumeLayout(false);
@@ -671,7 +673,6 @@
             this.pnlAbajo.PerformLayout();
             this.pnlArriba.ResumeLayout(false);
             this.pnlArriba.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }

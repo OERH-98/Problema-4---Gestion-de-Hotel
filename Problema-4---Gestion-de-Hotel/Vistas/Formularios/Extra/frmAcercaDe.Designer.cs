@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.tbpnl = new System.Windows.Forms.TableLayoutPanel();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.lblNombreProducto = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
             this.lblCopyright = new System.Windows.Forms.Label();
             this.lblCorporacion = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.btnAceptar = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.tbpnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
@@ -64,18 +64,6 @@
             this.tbpnl.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tbpnl.Size = new System.Drawing.Size(800, 450);
             this.tbpnl.TabIndex = 1;
-            // 
-            // pbLogo
-            // 
-            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbLogo.Image = global::Vistas.Properties.Resources.Hotel;
-            this.pbLogo.Location = new System.Drawing.Point(3, 3);
-            this.pbLogo.Name = "pbLogo";
-            this.tbpnl.SetRowSpan(this.pbLogo, 6);
-            this.pbLogo.Size = new System.Drawing.Size(258, 444);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbLogo.TabIndex = 12;
-            this.pbLogo.TabStop = false;
             // 
             // lblNombreProducto
             // 
@@ -165,6 +153,18 @@
             this.btnAceptar.TextColor = System.Drawing.Color.White;
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbLogo.Image = global::Vistas.Properties.Resources.Hotel;
+            this.pbLogo.Location = new System.Drawing.Point(3, 3);
+            this.pbLogo.Name = "pbLogo";
+            this.tbpnl.SetRowSpan(this.pbLogo, 6);
+            this.pbLogo.Size = new System.Drawing.Size(258, 444);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLogo.TabIndex = 12;
+            this.pbLogo.TabStop = false;
             // 
             // frmAcercaDe
             // 

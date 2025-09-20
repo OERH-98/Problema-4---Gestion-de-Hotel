@@ -3,180 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\carga\\frmprogreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\carga\\frmprogreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\carga\\frmprogreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\carga\\frmprogreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmactualizarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmactualizarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmcrearcuentaadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmcrearcuentaadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmrecuperarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmrecuperarclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmvertusdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmvertusdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\reservas\\frmagregarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\reservas\\frmagregarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\reservas\\frmmodificarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\reservas\\frmmodificarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\reservas\\frmverreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\reservas\\frmverreservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\servicioshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\servicioshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\empleadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\empleadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\registrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\registrar_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\servicios\\frmagregarservicios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmagregarservicios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\clientes\\frminsertarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frminsertarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frminsertarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmactualizarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmactualizarperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frmverclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\componentes nuevos\\frmmensajededialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\componentes nuevos\\frmmensajededialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frmmodificarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\clientes\\frminsertarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\clientes\\frminsertarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\modelos\\entidades\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\login\\frmcrearcuentaadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\login\\frmcrearcuentaadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\componentes nuevos\\cuadro de dialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\componentes nuevos\\cuadro de dialogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\extra\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\vistas\\formularios\\principal\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\principal\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\modelos\\entidades\\clienteshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\clienteshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\modelos\\entidades\\servicioshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489E4D8E-2139-4CF0-89CA-5B62CFA77553}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\servicioshotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmmodificarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmagregarservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmmodificarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\servicios\\frmverservicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionrecepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopcionadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\menu\\frmmenuopciongerente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\reservas\\frmagregarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\reservas\\frmagregarreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|c:\\users\\omarp\\documents\\c# proyects\\problema 4\\problema-4---gestion-de-hotel\\vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\usuarios\\frmregistrarusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,536 +130,341 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmProgreso.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAtwBwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T05:38:30.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmProgreso.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Carga\\frmProgreso.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Carga\\frmProgreso.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Carga\\frmProgreso.cs [Dise\u00F1o]",
+              "Title": "frmVerClientes.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAhwBsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T05:18:57.339Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmVerServicios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAowHYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T04:53:18.372Z",
+              "WhenOpened": "2025-09-20T20:36:22.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "frmAgregarServicios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.Designer.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.Designer.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.Designer.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.Designer.cs",
-              "ViewState": "AgIAAFkBAAAAAAAAAAAkwG8BAABJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmModificarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwFEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T03:30:39.098Z",
+              "WhenOpened": "2025-09-20T20:35:40.396Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "frmAgregarServicios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T03:27:43.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmVerServicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T03:10:27.5Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frmVerReservas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmVerReservas.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Reservas\\frmVerReservas.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmVerReservas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Reservas\\frmVerReservas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T03:10:18.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "frmActualizarPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAIwNIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:59:34.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Reservas.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Reservas.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Reservas.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Reservas.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Reservas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:10:12.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ServiciosHotel.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ServiciosHotel.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\ServiciosHotel.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ServiciosHotel.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\ServiciosHotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:10:06.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Clientes.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Clientes.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Clientes.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:57.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmModificarServicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:41.209Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmAgregarServicios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:33.437Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frmModificarReserva.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmModificarReserva.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Reservas\\frmModificarReserva.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmModificarReserva.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Reservas\\frmModificarReserva.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:23.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmAgregarReserva.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:16.515Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmRecuperarClave.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmRecuperarClave.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmRecuperarClave.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmRecuperarClave.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmRecuperarClave.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:09:07.022Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmActualizarPerfil.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmActualizarPerfil.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmActualizarPerfil.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmActualizarPerfil.cs [Dise\u00F1o]",
+              "Title": "frmVerClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmVerClientes.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmVerClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmVerClientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:08:57.865Z",
+              "WhenOpened": "2025-09-20T20:27:35.812Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmVerTusDatos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmVerTusDatos.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmVerTusDatos.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmVerTusDatos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmVerTusDatos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:08:46.757Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "frmModificarCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:08:37.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "frmInsertarCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T02:08:29.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "frmAcercaDe.cs",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
               "RelativeToolTip": "Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAADwv54AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAIAwwJ4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T01:46:14.137Z",
+              "WhenOpened": "2025-09-20T20:26:12.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "frmAcercaDe.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Extra\\frmAcercaDe.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Extra\\frmAcercaDe.cs [Dise\u00F1o]",
               "RelativeToolTip": "Vistas\\Formularios\\Extra\\frmAcercaDe.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T01:46:12.536Z",
+              "WhenOpened": "2025-09-20T20:26:10.242Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Sesion.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Sesion.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Sesion.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Sesion.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Sesion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "frmInsertarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAIAwwGcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:21:04.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "frmModificarUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "ViewState": "AgIAAC8BAAAAAAAAAAAYwEMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:14:40.498Z",
+              "WhenOpened": "2025-09-20T20:12:08.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmModificarUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs [Dise\u00F1o]",
+              "DocumentIndex": 12,
+              "Title": "ClientesHotel.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ClientesHotel.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\ClientesHotel.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ClientesHotel.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\ClientesHotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T23:08:02.842Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Usuarios.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Usuarios.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:42:42.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Empleadores.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Empleadores.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Empleadores.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Empleadores.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Empleadores.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwJIAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:42:31.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmLogin.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmLogin.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAD4v5IAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:40:58.28Z",
+              "WhenOpened": "2025-09-20T19:42:42.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmLogin.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "frmInsertarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmInsertarCliente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:39:37.57Z",
+              "WhenOpened": "2025-09-20T19:40:17.975Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "frmCrearCuentaAdministrador.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "ViewState": "AgIAAIMBAAAAAAAAAAAqwJQBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ServiciosHotel.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ServiciosHotel.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\ServiciosHotel.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\ServiciosHotel.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\ServiciosHotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:25:43.17Z",
+              "WhenOpened": "2025-09-20T19:19:05.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmCrearCuentaAdministrador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Login\\frmCrearCuentaAdministrador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:25:40.083Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Registrar_Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Registrar_Usuarios.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Registrar_Usuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Registrar_Usuarios.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Registrar_Usuarios.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAzwEEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:25:07.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "frmMensajedeDialogo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Componentes Nuevos\\frmMensajedeDialogo.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Componentes Nuevos\\frmMensajedeDialogo.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Componentes Nuevos\\frmMensajedeDialogo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Componentes Nuevos\\frmMensajedeDialogo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:24:40.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Cuadro de Dialogo.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Componentes Nuevos\\Cuadro de Dialogo.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Componentes Nuevos\\Cuadro de Dialogo.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Componentes Nuevos\\Cuadro de Dialogo.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Componentes Nuevos\\Cuadro de Dialogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:24:36.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "frmRegistrarUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAkwCsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:21:44.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Roles.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Roles.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Modelos\\Entidades\\Roles.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:12:44.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmRegistrarUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:12:28.136Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "frmMenuOpcionRecepcionista.cs",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
               "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAACGAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAMwIsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:11:49.356Z"
+              "WhenOpened": "2025-09-20T19:13:03.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
+              "Title": "frmAgregarServicios.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAIAwwLMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:08:57.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmModificarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Clientes\\frmModificarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Clientes\\frmModificarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:02:56.176Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmAgregarReserva.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Reservas\\frmAgregarReserva.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:02:42.126Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "frmMenuOpcionGerente.cs",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
               "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAYwLAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAhwKgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:11:41.363Z",
+              "WhenOpened": "2025-09-20T19:02:29.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "frmMenuOpcionAdministrador.cs",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:11:34.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:07:55.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 22,
               "Title": "frmMenuOpcionRecepcionista.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs [Dise\u00F1o]",
               "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionRecepcionista.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:07:51.383Z"
+              "WhenOpened": "2025-09-20T19:01:58.99Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "frmMenuOpcionGerente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs",
               "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs [Dise\u00F1o]",
               "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionGerente.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:07:48.707Z",
+              "WhenOpened": "2025-09-20T19:01:57.292Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "frmDashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Principal\\frmDashboard.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\Principal\\frmDashboard.cs",
-              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Principal\\frmDashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\Principal\\frmDashboard.cs [Dise\u00F1o]",
+              "DocumentIndex": 23,
+              "Title": "frmMenuOpcionAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAApwMwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T22:01:36.619Z"
+              "WhenOpened": "2025-09-20T19:01:37.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Menu\\frmMenuOpcionAdministrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:01:30.106Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmModificarServicios.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T19:00:36.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmModificarUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "ViewState": "AgIAAO4BAAAAAAAAAIAwwPQBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:57:18.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmModificarUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmModificarUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:57:16.087Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmRegistrarUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAYwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:57:05.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmRegistrarUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Usuarios\\frmRegistrarUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T18:57:02.757Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmVerServicios.cs",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:53:09.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmAgregarServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmAgregarServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:52:55.947Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmModificarServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmModificarServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmModificarServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:52:52.34Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmVerServicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs",
+              "ToolTip": "C:\\Users\\omarp\\Documents\\C# Proyects\\Problema 4\\Problema-4---Gestion-de-Hotel\\Vistas\\Formularios\\Servicios\\frmVerServicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\Servicios\\frmVerServicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:52:43.958Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

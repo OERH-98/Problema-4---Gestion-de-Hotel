@@ -8,48 +8,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Vistas.Formularios.Componentes_Nuevos;
 using Vistas.Formularios.Menu;
 using Vistas.Formularios.Visualizador;
 
 namespace Vistas.Formularios.Clientes
 {
-    public partial class frmInsertarCliente : Form
+    public partial class frmVerClientes : Form
     {
-        public frmInsertarCliente()
+        public frmVerClientes()
         {
             InitializeComponent();
+            MostrarClientes();
         }
 
-        private void btnRegistrar_Click(object sender, EventArgs e)
+        private void MostrarClientes()
         {
             try
             {
-                ClientesHotel clientes = new ClientesHotel();
-                clientes.NombreCliente = txtNombre.Text;
-                clientes.ApellidoCliente = txtApellido.Text;
-                clientes.DUI = msktxtDui.Text;
-                clientes.DireccionCliente = txtCiudad.Text;
-                clientes.FechaCumpleanios = dtp1.Value;
-                clientes.NumeroTelefono = msktxtTelefono.Text;
-                if (clientes.InsertarCliente())
-                {
-                    DialogResult = IPES_CDD.Show("Cliente registrado con éxito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close();
-                }
-                else
-                {
-                    DialogResult = IPES_CDD.Show("No se pudo registrar el cliente, intente de nuevo", "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
+                dgvClientes.DataSource = ClientesHotel.CargarClientes();
             }
             catch (Exception ex)
             {
-                DialogResult = IPES_CDD.Show("Error al registrar el cliente: " + ex.Message, "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                MessageBox.Show("Error al cargar los clientes: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-           
         }
 
         private void btnMenu_Click(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace Vistas.Formularios.Servicios
         public frmVerServicios()
         {
             InitializeComponent();
+            MostrarServiciosExistentes();
         }
 
         private void btnBusqueda_Click(object sender, EventArgs e)

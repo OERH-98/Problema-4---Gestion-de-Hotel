@@ -64,7 +64,7 @@ apellidoCliente NVARCHAR (60) NOT NULL,
 fechaRegistroCliente DATETIME NOT NULL DEFAULT GETDATE(),
 fechaCumpleanios DATE NOT NULL,
 numeroTelefono VARCHAR NOT NULL,
-DUI VARCHAR (10) NOT NULL,
+DUI VARCHAR (10) UNIQUE NOT NULL,
 direccionCliente NVARCHAR (150) NOT NULL);
 -- 5. Tabla de Reservas
 --¿El cliente necesita un lugar para vivir temporalmente? La tabla Reservas guarda las habitaciones compradas por clientes
@@ -171,9 +171,10 @@ GO
 
 -- Muestra los servicios disponibles
 CREATE VIEW SERVICIOS_HOTEL AS
-SELECT nombreServicio AS [Definicion del servicio],
-Servicios.fechaRegistroServicio AS [Fecha de Registro],
-Servicios.descripcionServicio AS [Descripción]
+SELECT Servicios.idServicio AS [Número de Servicio],
+nombreServicio AS [Definicion del servicio],
+Servicios.descripcionServicio AS [Descripción],
+Servicios.fechaRegistroServicio AS [Fecha de Registro]
 FROM Servicios;
 GO
 --<------------------------------------------------>

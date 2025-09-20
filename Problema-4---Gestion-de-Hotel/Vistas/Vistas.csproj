@@ -83,6 +83,12 @@
     <Compile Include="Formularios\Clientes\frmModificarCliente.Designer.cs">
       <DependentUpon>frmModificarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Clientes\frmVerClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clientes\frmVerClientes.Designer.cs">
+      <DependentUpon>frmVerClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Componentes Nuevos\barra_de_carga_redondeada.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -221,6 +227,15 @@
     <EmbeddedResource Include="Formularios\Carga\frmProgreso.resx">
       <DependentUpon>frmProgreso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Clientes\frmInsertarCliente.resx">
+      <DependentUpon>frmInsertarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Clientes\frmModificarCliente.resx">
+      <DependentUpon>frmModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Clientes\frmVerClientes.resx">
+      <DependentUpon>frmVerClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Componentes Nuevos\frmMensajedeDialogo.resx">
       <DependentUpon>frmMensajedeDialogo.cs</DependentUpon>
     </EmbeddedResource>
@@ -250,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Servicios\frmAgregarServicios.resx">
       <DependentUpon>frmAgregarServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Servicios\frmModificarServicios.resx">
+      <DependentUpon>frmModificarServicios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Servicios\frmVerServicios.resx">
       <DependentUpon>frmVerServicios.cs</DependentUpon>

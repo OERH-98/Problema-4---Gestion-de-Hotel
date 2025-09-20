@@ -166,7 +166,7 @@ namespace Vistas.Formularios.Menu
 
         private void btnVerServicio_Click(object sender, EventArgs e)
         {
-            frmAgregarServicios usuarios = new frmAgregarServicios();
+            frmVerServicios usuarios = new frmVerServicios();
             usuarios.TopLevel = false;
             usuarios.FormBorderStyle = FormBorderStyle.None;
             usuarios.Dock = DockStyle.Fill;

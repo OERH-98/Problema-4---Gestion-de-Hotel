@@ -231,5 +231,21 @@ namespace Vistas.Formularios.Menu
                 usuarios.Show();
             }
         }
+
+        private void btnModificarServicio_Click(object sender, EventArgs e)
+        {
+            frmModificarServicios usuarios = new frmModificarServicios();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
     }
 }

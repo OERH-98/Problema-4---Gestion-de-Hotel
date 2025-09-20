@@ -87,8 +87,8 @@
             // btnBusqueda
             // 
             this.btnBusqueda.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(50)))), ((int)(((byte)(79)))));
-            this.btnBusqueda.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(50)))), ((int)(((byte)(79)))));
+            this.btnBusqueda.BackColor = System.Drawing.Color.Black;
+            this.btnBusqueda.BackgroundColor = System.Drawing.Color.Black;
             this.btnBusqueda.BorderColor = System.Drawing.Color.White;
             this.btnBusqueda.BorderRadius = 15;
             this.btnBusqueda.BorderSize = 4;
@@ -126,7 +126,7 @@
             this.txtBusqueda.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBusqueda.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBusqueda.Location = new System.Drawing.Point(286, 156);
+            this.txtBusqueda.Location = new System.Drawing.Point(276, 156);
             this.txtBusqueda.Multiline = true;
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.ShortcutsEnabled = false;

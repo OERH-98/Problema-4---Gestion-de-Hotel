@@ -64,3 +64,4 @@ C:\Users\omarp\Documents\C# Proyects\Problema 4\Problema-4---Gestion-de-Hotel\Vi
 C:\Users\omarp\Documents\C# Proyects\Problema 4\Problema-4---Gestion-de-Hotel\Vistas\obj\Debug\Vistas.Formularios.Login.frmActualizarPerfil.resources
 C:\Users\omarp\Documents\C# Proyects\Problema 4\Problema-4---Gestion-de-Hotel\Vistas\obj\Debug\Vistas.Formularios.Servicios.frmAgregarServicios.resources
 C:\Users\omarp\Documents\C# Proyects\Problema 4\Problema-4---Gestion-de-Hotel\Vistas\obj\Debug\Vistas.Formularios.Servicios.frmVerServicios.resources
+C:\Users\omarp\Documents\C# Proyects\Problema 4\Problema-4---Gestion-de-Hotel\Vistas\obj\Debug\Vistas.Formularios.Servicios.frmModificarServicios.resources
