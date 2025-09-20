@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0220AF7-6044-4E0B-B1E1-21E4E54FD5AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vistas</RootNamespace>
+    <AssemblyName>Gestion de Hoteles</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Hotel.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net-Next, Version=4.0.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net-Next.4.0.3\lib\net472\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\Carga\frmProgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Carga\frmProgreso.Designer.cs">
+      <DependentUpon>frmProgreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clientes\frmInsertarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clientes\frmInsertarCliente.Designer.cs">
+      <DependentUpon>frmInsertarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Clientes\frmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Clientes\frmModificarCliente.Designer.cs">
+      <DependentUpon>frmModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\barra_de_carga_redondeada.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\Cuadro de Dialogo.cs" />
+    <Compile Include="Formularios\Componentes Nuevos\frmMensajedeDialogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\frmMensajedeDialogo.Designer.cs">
+      <DependentUpon>frmMensajedeDialogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\IPESBoton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\LabelTransparente.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formularios\Componentes Nuevos\PictureBoxRedondo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formularios\Extra\frmAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Extra\frmAcercaDe.Designer.cs">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login\frmActualizarPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Login\frmActualizarPerfil.Designer.cs">
+      <DependentUpon>frmActualizarPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login\frmCrearCuentaAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Login\frmCrearCuentaAdministrador.Designer.cs">
+      <DependentUpon>frmCrearCuentaAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login\frmRecuperarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Login\frmRecuperarClave.Designer.cs">
+      <DependentUpon>frmRecuperarClave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Login\frmVerTusDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Login\frmVerTusDatos.Designer.cs">
+      <DependentUpon>frmVerTusDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionAdministrador.Designer.cs">
+      <DependentUpon>frmMenuOpcionAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionGerente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionGerente.Designer.cs">
+      <DependentUpon>frmMenuOpcionGerente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionRecepcionista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Menu\frmMenuOpcionRecepcionista.Designer.cs">
+      <DependentUpon>frmMenuOpcionRecepcionista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Principal\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Principal\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmAgregarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmAgregarReserva.Designer.cs">
+      <DependentUpon>frmAgregarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmModificarReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmModificarReserva.Designer.cs">
+      <DependentUpon>frmModificarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmVerReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservas\frmVerReservas.Designer.cs">
+      <DependentUpon>frmVerReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmAgregarServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmAgregarServicios.Designer.cs">
+      <DependentUpon>frmAgregarServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmVerServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmVerServicios.Designer.cs">
+      <DependentUpon>frmVerServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmModificarServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Servicios\frmModificarServicios.Designer.cs">
+      <DependentUpon>frmModificarServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Usuarios\frmModificarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Usuarios\frmModificarUsuarios.Designer.cs">
+      <DependentUpon>frmModificarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Usuarios\frmRegistrarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Usuarios\frmRegistrarUsuarios.Designer.cs">
+      <DependentUpon>frmRegistrarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Visualizador\frmContenedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Visualizador\frmContenedor.Designer.cs">
+      <DependentUpon>frmContenedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Carga\frmProgreso.resx">
+      <DependentUpon>frmProgreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Componentes Nuevos\frmMensajedeDialogo.resx">
+      <DependentUpon>frmMensajedeDialogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Extra\frmAcercaDe.resx">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login\frmActualizarPerfil.resx">
+      <DependentUpon>frmActualizarPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login\frmCrearCuentaAdministrador.resx">
+      <DependentUpon>frmCrearCuentaAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Menu\frmMenuOpcionAdministrador.resx">
+      <DependentUpon>frmMenuOpcionAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Menu\frmMenuOpcionGerente.resx">
+      <DependentUpon>frmMenuOpcionGerente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Menu\frmMenuOpcionRecepcionista.resx">
+      <DependentUpon>frmMenuOpcionRecepcionista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Principal\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Servicios\frmAgregarServicios.resx">
+      <DependentUpon>frmAgregarServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Servicios\frmVerServicios.resx">
+      <DependentUpon>frmVerServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Usuarios\frmModificarUsuarios.resx">
+      <DependentUpon>frmModificarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Usuarios\frmRegistrarUsuarios.resx">
+      <DependentUpon>frmRegistrarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Visualizador\frmContenedor.resx">
+      <DependentUpon>frmContenedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-sharp-logotipo-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelos\Modelos.csproj">
+      <Project>{489e4d8e-2139-4cf0-89ca-5b62cfa77553}</Project>
+      <Name>Modelos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cerrar-ventana-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-maximizar-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimizar-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-sharp-logotipo-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hotel-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hotel-de-5-estrellas-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-5-star-hotel-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-5-star-hotel-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advertencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interrogacion1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interrogacion2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mensaje-1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alerta1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alerta2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hotel.ico" />
+    <None Include="Resources\Cargav2.png" />
+    <None Include="Resources\black-and-blue-background-abstract-light-leak-p6f2434y35fq33tb.jpg" />
+    <None Include="Resources\18d9a12b377f3967727d9a7227be6e80.jpg" />
+    <None Include="Resources\caga_registro_v2.png" />
+    <None Include="Resources\solid-background-nice-blue-ombre-bst4c8y6yr57m3mh.jpg" />
+    <None Include="Resources\solid-dark-blue-and-black-vector-gzibvjtoxecs2mcd.jpg" />
+    <None Include="Resources\e.jpg" />
+    <None Include="Resources\icons8-invisible-96.png" />
+    <None Include="Resources\icons8-visible-96.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
