@@ -33,10 +33,10 @@
             this.tmrOcultarAnimacion = new System.Windows.Forms.Timer(this.components);
             this.tmrAnimacion = new System.Windows.Forms.Timer(this.components);
             this.pnlBarradeCarga = new System.Windows.Forms.Panel();
+            this.pgbProgreso = new Vistas.Formularios.Componentes_Improvisados.barra_de_carga_redondeada();
             this.lblPorcentaje = new System.Windows.Forms.Label();
             this.pbFondo = new System.Windows.Forms.PictureBox();
             this.lblMensaje = new LabelTransparente();
-            this.pgbProgreso = new Vistas.Formularios.Componentes_Improvisados.barra_de_carga_redondeada();
             this.pbLogo = new CustomControls.RJControls.PictureBoxRedondo();
             this.pnlBarradeCarga.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFondo)).BeginInit();
@@ -62,6 +62,21 @@
             this.pnlBarradeCarga.Name = "pnlBarradeCarga";
             this.pnlBarradeCarga.Size = new System.Drawing.Size(463, 70);
             this.pnlBarradeCarga.TabIndex = 10;
+            // 
+            // pgbProgreso
+            // 
+            this.pgbProgreso.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pgbProgreso.BackColor = System.Drawing.Color.Black;
+            this.pgbProgreso.ColorBorde = System.Drawing.Color.Transparent;
+            this.pgbProgreso.EstiloBorde = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pgbProgreso.ForeColor = System.Drawing.Color.White;
+            this.pgbProgreso.GrosorBorde = 0F;
+            this.pgbProgreso.Location = new System.Drawing.Point(16, 10);
+            this.pgbProgreso.Name = "pgbProgreso";
+            this.pgbProgreso.Radio_Esquina = 20;
+            this.pgbProgreso.Size = new System.Drawing.Size(432, 57);
+            this.pgbProgreso.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.pgbProgreso.TabIndex = 9;
             // 
             // lblPorcentaje
             // 
@@ -101,35 +116,21 @@
             this.lblMensaje.TabIndex = 13;
             this.lblMensaje.Text = "Bienvenido a Gestión de Hoteles  ";
             // 
-            // pgbProgreso
-            // 
-            this.pgbProgreso.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pgbProgreso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pgbProgreso.ColorBorde = System.Drawing.Color.Transparent;
-            this.pgbProgreso.EstiloBorde = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pgbProgreso.ForeColor = System.Drawing.Color.White;
-            this.pgbProgreso.GrosorBorde = 0F;
-            this.pgbProgreso.Location = new System.Drawing.Point(16, 10);
-            this.pgbProgreso.Name = "pgbProgreso";
-            this.pgbProgreso.Radio_Esquina = 20;
-            this.pgbProgreso.Size = new System.Drawing.Size(432, 57);
-            this.pgbProgreso.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.pgbProgreso.TabIndex = 9;
-            // 
             // pbLogo
             // 
-            this.pbLogo.BackColor = System.Drawing.Color.Black;
+            this.pbLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pbLogo.BackgroundImage = global::Vistas.Properties.Resources.e;
             this.pbLogo.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pbLogo.BorderColor = System.Drawing.Color.Black;
+            this.pbLogo.BorderColor = System.Drawing.Color.White;
             this.pbLogo.BorderColor2 = System.Drawing.Color.Black;
-            this.pbLogo.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pbLogo.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             this.pbLogo.BorderSize = 0;
             this.pbLogo.GradientAngle = 50F;
-            this.pbLogo.Image = global::Vistas.Properties.Resources.icons8_visible_96;
-            this.pbLogo.Location = new System.Drawing.Point(267, 162);
+            this.pbLogo.Image = global::Vistas.Properties.Resources.icons8_hotel_de_5_estrellas_96;
+            this.pbLogo.Location = new System.Drawing.Point(270, 171);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(199, 199);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLogo.Size = new System.Drawing.Size(202, 202);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbLogo.TabIndex = 12;
             this.pbLogo.TabStop = false;
             // 

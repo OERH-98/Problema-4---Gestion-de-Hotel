@@ -88,6 +88,7 @@
             this.lblMujer.Size = new System.Drawing.Size(65, 25);
             this.lblMujer.TabIndex = 59;
             this.lblMujer.Text = "Mujer";
+            this.lblMujer.Click += new System.EventHandler(this.lblMujer_Click);
             // 
             // lblHombre
             // 
@@ -102,6 +103,7 @@
             this.lblHombre.Size = new System.Drawing.Size(86, 25);
             this.lblHombre.TabIndex = 58;
             this.lblHombre.Text = "Hombre";
+            this.lblHombre.Click += new System.EventHandler(this.lblHombre_Click);
             // 
             // lblGenero
             // 
@@ -336,6 +338,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Vistas.Properties.Resources.black_and_blue_background_abstract_light_leak_p6f2434y35fq33tb;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1035, 609);
             this.Controls.Add(this.msktxtDui);
             this.Controls.Add(this.btnMenu);

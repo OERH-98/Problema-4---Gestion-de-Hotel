@@ -12,7 +12,6 @@ using System.Windows.Forms;
 using Vistas.Formularios.Componentes_Nuevos;
 using Vistas.Formularios.Visualizador;
 using Vistas.Formularios.Extra;
-using Vistas.Formularios.Principal;
 using Vistas.Formularios.Usuarios;
 using Vistas.Formularios.Menu;
 using Vistas.Formularios.Login;
@@ -154,21 +153,7 @@ namespace Vistas.Formularios.Menu
             }
         }
 
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-            frmDashboard dashboard = new frmDashboard();
-            dashboard.TopLevel = false;
-            dashboard.FormBorderStyle = FormBorderStyle.None;
-            dashboard.Dock = DockStyle.Fill;
-            // Nueva Forma de Abrir Formularios
-            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
-            if (principal != null)
-            {
-                principal.pnlContenedor.Controls.Clear();
-                principal.pnlContenedor.Controls.Add(dashboard);
-                dashboard.Show();
-            }
-        }
+
 
         private void btnAgregarUsuario_Click(object sender, EventArgs e)
         {

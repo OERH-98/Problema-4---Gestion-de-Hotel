@@ -22,7 +22,15 @@ namespace Vistas.Formularios.Clientes
             InitializeComponent();
             MostrarClientes();
         }
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         private void MostrarClientes()
         {
             ClientesHotel cliente = new ClientesHotel();
@@ -239,6 +247,16 @@ namespace Vistas.Formularios.Clientes
             {
                 DialogResult = IPES_CDD.Show("Error al eliminar cliente: " + ex.Message, "Error Fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void lblHombre_Click(object sender, EventArgs e)
+        {
+            rbtnHombre.Checked = true;
+        }
+
+        private void lblMujer_Click(object sender, EventArgs e)
+        {
+            rbtnMujer.Checked = true;
         }
     }
 }

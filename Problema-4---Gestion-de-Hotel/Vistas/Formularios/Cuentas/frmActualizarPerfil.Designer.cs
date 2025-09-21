@@ -241,6 +241,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackgroundImage = global::Vistas.Properties.Resources.interesting_gradient_design_purple_black_free_photo;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1259, 731);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.pbFotoPerfilNueva);

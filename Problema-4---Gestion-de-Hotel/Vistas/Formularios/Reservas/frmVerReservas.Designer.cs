@@ -37,6 +37,7 @@
             this.txtBusquedaReserva = new System.Windows.Forms.TextBox();
             this.lblReserva = new LabelTransparente();
             this.dgvReserva = new System.Windows.Forms.DataGridView();
+            this.btnMenu = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReserva)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,7 +129,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvReserva.DefaultCellStyle = dataGridViewCellStyle7;
             this.dgvReserva.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dgvReserva.Location = new System.Drawing.Point(272, 215);
+            this.dgvReserva.Location = new System.Drawing.Point(58, 204);
             this.dgvReserva.Name = "dgvReserva";
             this.dgvReserva.ReadOnly = true;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -139,15 +140,40 @@
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvReserva.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.dgvReserva.Size = new System.Drawing.Size(376, 289);
+            this.dgvReserva.Size = new System.Drawing.Size(802, 240);
             this.dgvReserva.TabIndex = 297;
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnMenu.BackColor = System.Drawing.Color.Black;
+            this.btnMenu.BackgroundColor = System.Drawing.Color.Black;
+            this.btnMenu.BorderColor = System.Drawing.Color.White;
+            this.btnMenu.BorderRadius = 20;
+            this.btnMenu.BorderSize = 4;
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.FlatAppearance.BorderSize = 0;
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.btnMenu.ForeColor = System.Drawing.Color.White;
+            this.btnMenu.Location = new System.Drawing.Point(325, 464);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(255, 68);
+            this.btnMenu.TabIndex = 302;
+            this.btnMenu.Text = "Regresar al Menú de Opciones";
+            this.btnMenu.TextColor = System.Drawing.Color.White;
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // frmVerReservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackgroundImage = global::Vistas.Properties.Resources.e;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(933, 563);
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnBuscarReserva);
             this.Controls.Add(this.lblLimpiarDGV2);
             this.Controls.Add(this.txtBusquedaReserva);
@@ -169,5 +195,6 @@
         private System.Windows.Forms.TextBox txtBusquedaReserva;
         private LabelTransparente lblReserva;
         private System.Windows.Forms.DataGridView dgvReserva;
+        private Componentes_Improvisados.IPESBotonRedondeado btnMenu;
     }
 }

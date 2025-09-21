@@ -15,6 +15,7 @@ using Vistas.Formularios.Login;
 using Vistas.Formularios.Visualizador;
 using Vistas.Formularios.Servicios;
 using Vistas.Formularios.Clientes;
+using Vistas.Formularios.Reservas;
 
 namespace Vistas.Formularios.Menu
 {
@@ -194,6 +195,24 @@ namespace Vistas.Formularios.Menu
                 principal.pnlContenedor.Controls.Clear();
                 principal.pnlContenedor.Controls.Add(usuarios);
                 usuarios.Show();
+            }
+        }
+
+        private void btnReserva_Click(object sender, EventArgs e)
+        {
+            frmVerReservas usuarios = new frmVerReservas();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+
+
             }
         }
     }

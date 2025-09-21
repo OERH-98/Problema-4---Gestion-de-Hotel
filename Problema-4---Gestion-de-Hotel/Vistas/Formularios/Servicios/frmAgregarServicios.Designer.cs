@@ -347,6 +347,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Vistas.Properties.Resources._18d9a12b377f3967727d9a7227be6e80;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1185, 818);
             this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.txtDescripcion);

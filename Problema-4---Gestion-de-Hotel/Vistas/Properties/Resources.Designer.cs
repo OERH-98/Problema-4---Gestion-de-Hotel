@@ -325,6 +325,16 @@ namespace Vistas.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap interesting_gradient_design_purple_black_free_photo {
+            get {
+                object obj = ResourceManager.GetObject("interesting-gradient-design-purple-black-free-photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream Interrogacion1 {
@@ -345,6 +355,16 @@ namespace Vistas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap light_blue_and_purple_gradient_background_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("light-blue-and-purple-gradient-background-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mensaje {
             get {
                 object obj = ResourceManager.GetObject("mensaje", resourceCulture);
@@ -358,6 +378,16 @@ namespace Vistas.Properties {
         internal static System.IO.UnmanagedMemoryStream Mensaje_1 {
             get {
                 return ResourceManager.GetStream("Mensaje_1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_1673526759327_54f1f5b27322 {
+            get {
+                object obj = ResourceManager.GetObject("photo-1673526759327-54f1f5b27322", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

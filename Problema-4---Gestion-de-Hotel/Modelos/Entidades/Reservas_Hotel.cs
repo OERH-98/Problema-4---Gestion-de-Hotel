@@ -30,14 +30,15 @@ namespace Modelos.Entidades
             using (SqlConnection conexion = ConexionDB.conectar())
             {
                 string comando = @"
-                    INSERT INTO Reservas (idHabitacion, idUsuario, idServicio, idCliente) 
-                    VALUES (@IdHabitacion, @IdUsuario, @IdServicio, @IdCliente);
+                    INSERT INTO Reservas (idHabitacion, idUsuario, idServicio, idCliente, fechaReserva) 
+                    VALUES (@IdHabitacion, @IdUsuario, @IdServicio, @IdCliente, @FechaReserva);
                 ";
                 SqlCommand cmd = new SqlCommand(comando, conexion);
                 cmd.Parameters.AddWithValue("@IdHabitacion", idHabitacion);
                 cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
                 cmd.Parameters.AddWithValue("@IdServicio", idServicio);
                 cmd.Parameters.AddWithValue("@IdCliente", idCliente);
+                cmd.Parameters.AddWithValue("@FechaReserva", fechaReserva);
 
                 return cmd.ExecuteNonQuery() > 0;
             }
@@ -83,7 +84,8 @@ namespace Modelos.Entidades
                     SET idHabitacion = @IdHabitacion, 
                         idUsuario = @IdUsuario, 
                         idServicio = @IdServicio, 
-                        idCliente = @IdCliente
+                        idCliente = @IdCliente,
+                        fechaReserva = @FechaReserva
                     WHERE idReserva = @IdReserva;
                 ";
                 SqlCommand cmd = new SqlCommand(comando, conexion);
@@ -92,6 +94,7 @@ namespace Modelos.Entidades
                 cmd.Parameters.AddWithValue("@IdUsuario", idUsuario);
                 cmd.Parameters.AddWithValue("@IdServicio", idServicio);
                 cmd.Parameters.AddWithValue("@IdCliente", idCliente);
+                cmd.Parameters.AddWithValue("@FechaReserva", fechaReserva);
 
                 return cmd.ExecuteNonQuery() > 0;
             }

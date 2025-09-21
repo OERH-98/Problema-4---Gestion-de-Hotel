@@ -17,6 +17,15 @@ namespace Vistas.Formularios.Usuarios
 {
     public partial class frmModificarUsuarios : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         public frmModificarUsuarios()
         {
             InitializeComponent();

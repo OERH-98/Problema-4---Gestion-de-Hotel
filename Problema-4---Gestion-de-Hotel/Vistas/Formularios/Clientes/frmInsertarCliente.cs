@@ -30,6 +30,15 @@ namespace Vistas.Formularios.Clientes
             else
                 return string.Empty; // o un valor por defecto
         }
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
@@ -158,6 +167,16 @@ namespace Vistas.Formularios.Clientes
                     opciones.Show();
                 }
             }
+        }
+
+        private void lblHombre_Click(object sender, EventArgs e)
+        {
+            rbtnHombre.Checked = true;
+        }
+
+        private void lblMujer_Click(object sender, EventArgs e)
+        {
+            rbtnMujer.Checked = true;
         }
     }
 }

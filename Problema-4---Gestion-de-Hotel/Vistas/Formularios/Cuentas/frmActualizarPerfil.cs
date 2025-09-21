@@ -17,6 +17,15 @@ namespace Vistas.Formularios.Login
 {
     public partial class frmActualizarPerfil : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         public frmActualizarPerfil()
         {
             InitializeComponent();

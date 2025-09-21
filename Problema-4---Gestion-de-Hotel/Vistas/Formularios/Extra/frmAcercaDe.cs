@@ -26,7 +26,15 @@ namespace Vistas.Formularios.Extra
             this.lblCorporacion.Text = AssemblyCompany;
             this.txtDescripcion.Text = AssemblyDescription;
         }
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         #region Descriptores de acceso de atributos de ensamblado
 
         public string AssemblyTitle

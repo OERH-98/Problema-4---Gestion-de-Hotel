@@ -67,7 +67,15 @@ namespace Vistas.Formularios.Reservas
                 dgvReserva.DataSource = null;
             }
         }
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         private void dgvReserva_DoubleClick(object sender, EventArgs e)
         {
             try
@@ -129,6 +137,21 @@ namespace Vistas.Formularios.Reservas
         private void btnModificarReserva_Click(object sender, EventArgs e)
         {
             // Logica para Modificar Reserva
+            if (cbHabitacion.SelectedIndex == -1)
+            {
+                DialogResult = IPES_CDD.Show("Por favor, selecciona una habitación.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (cbServicio.SelectedIndex == -1)
+            {
+                DialogResult = IPES_CDD.Show("Por favor, selecciona un servicio.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (dtp2.Value.Date < DateTime.Now.Date)
+            {
+                DialogResult = IPES_CDD.Show("La fecha de la reserva no puede ser anterior a la fecha actual.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             try
             {
                 if (dgvReserva.CurrentRow != null)
@@ -138,7 +161,9 @@ namespace Vistas.Formularios.Reservas
                         IdReserva = Convert.ToInt32(dgvReserva.CurrentRow.Cells["Identificador de Reserva"].Value),
                         IdHabitacion = Convert.ToInt32(cbHabitacion.SelectedValue),
                         IdServicio = Convert.ToInt32(cbServicio.SelectedValue),
-                        FechaReserva = dtp2.Value
+                        FechaReserva = dtp2.Value,
+                        IdUsuario = Sesion.UsuarioActivo.IdUsuario,
+                        IdCliente = Convert.ToInt32(dgvReserva.CurrentRow.Cells["Identificador de Cliente"].Value)
                     };
                     bool resultado = reserva.ModificarReserva();
                     if (resultado)

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Vistas.Formularios.Clientes;
 using Vistas.Formularios.Componentes_Nuevos;
 using Vistas.Formularios.Extra;
 using Vistas.Formularios.Login;
@@ -194,6 +195,38 @@ namespace Vistas.Formularios.Menu
             {
                 principal.pnlContenedor.Controls.Clear();
                 principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            frmInsertarCliente usuarios = new frmInsertarCliente();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+
+        }
+
+        private void btnModificarReserva_Click(object sender, EventArgs e)
+        {
+            frmModificarReserva usuarios = new frmModificarReserva();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            frmContenedor frmContenedor = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (frmContenedor != null)
+            {
+                frmContenedor.pnlContenedor.Controls.Clear();
+                frmContenedor.pnlContenedor.Controls.Add(usuarios);
                 usuarios.Show();
             }
         }

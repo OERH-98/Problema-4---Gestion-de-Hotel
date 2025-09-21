@@ -150,12 +150,6 @@
     <Compile Include="Formularios\Menu\frmMenuOpcionRecepcionista.Designer.cs">
       <DependentUpon>frmMenuOpcionRecepcionista.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Principal\frmDashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Principal\frmDashboard.Designer.cs">
-      <DependentUpon>frmDashboard.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\Reservas\frmAgregarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,9 +241,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Menu\frmMenuOpcionRecepcionista.resx">
       <DependentUpon>frmMenuOpcionRecepcionista.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Principal\frmDashboard.resx">
-      <DependentUpon>frmDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reservas\frmAgregarReserva.resx">
       <DependentUpon>frmAgregarReserva.cs</DependentUpon>
@@ -382,6 +373,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hotel.ico" />
+    <None Include="Resources\light-blue-and-purple-gradient-background-free-vector.jpg" />
+    <None Include="Resources\interesting-gradient-design-purple-black-free-photo.jpg" />
+    <None Include="Resources\photo-1673526759327-54f1f5b27322.jpg" />
     <None Include="Resources\Cargav2.png" />
     <None Include="Resources\black-and-blue-background-abstract-light-leak-p6f2434y35fq33tb.jpg" />
     <None Include="Resources\18d9a12b377f3967727d9a7227be6e80.jpg" />

@@ -154,6 +154,7 @@ GO
 CREATE VIEW RESERVAS_HOTEL AS
 SELECT
 Reservas.idReserva AS [Identificador de Reserva],
+Clientes.idCliente AS [Identificador de Cliente],
 Habitaciones.numeroHabitacion AS [Habitación asignada],
 Clientes.nombreCliente + Clientes.apellidoCliente AS [Cliente asignado],
 Habitaciones.idHabitacion AS [Identificador de Habitacion],

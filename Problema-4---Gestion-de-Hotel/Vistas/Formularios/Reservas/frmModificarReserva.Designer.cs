@@ -56,8 +56,7 @@
             // dtp2
             // 
             this.dtp2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dtp2.Cursor = System.Windows.Forms.Cursors.No;
-            this.dtp2.Enabled = false;
+            this.dtp2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dtp2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.dtp2.Location = new System.Drawing.Point(77, 448);
             this.dtp2.Name = "dtp2";
@@ -339,6 +338,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Vistas.Properties.Resources.e;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1254, 738);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnBuscarReserva);

@@ -24,7 +24,15 @@ namespace Vistas.Formularios.Reservas
             MostrarServiciosDisponibles();
             MostrarClientes();
         }
-
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleparam = base.CreateParams;
+                handleparam.ExStyle |= 0x02000000; // Habilita el estilo WS_EX_COMPOSITED para mejorar el rendimiento de redimensionamiento
+                return handleparam;
+            }
+        }
         private void MostrarClientes()
         {
             try
@@ -195,6 +203,11 @@ namespace Vistas.Formularios.Reservas
                 DialogResult = IPES_CDD.Show("Por favor, complete todos los campos obligatorios y asegúrese de que las fechas sean válidas.", "Campos Incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (dtp2.Value.Date < DateTime.Now.Date)
+            {
+                DialogResult = IPES_CDD.Show("La fecha de la reserva no puede ser anterior a la fecha actual.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             try
             {
                 Reservas_Hotel nuevaReserva = new Reservas_Hotel();
@@ -202,6 +215,7 @@ namespace Vistas.Formularios.Reservas
                 nuevaReserva.IdHabitacion = (int)cbHabitacion.SelectedValue;
                 nuevaReserva.IdServicio = (int)cbServicio.SelectedValue;
                 nuevaReserva.IdUsuario = Sesion.UsuarioActivo.IdUsuario;
+                nuevaReserva.FechaReserva = dtp2.Value;
 
 
                 if (nuevaReserva.InsertarReserva())
