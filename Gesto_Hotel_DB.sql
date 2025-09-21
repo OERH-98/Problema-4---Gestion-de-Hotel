@@ -153,6 +153,7 @@ GO
 -- Muestra las reservas con Cliente, Habitacion y Servicio
 CREATE VIEW RESERVAS_HOTEL AS
 SELECT
+Reservas.idReserva AS [Identificador de Reserva],
 Habitaciones.numeroHabitacion AS [Habitación asignada],
 Clientes.nombreCliente + Clientes.apellidoCliente AS [Cliente asignado],
 Habitaciones.idHabitacion AS [Identificador de Habitacion],

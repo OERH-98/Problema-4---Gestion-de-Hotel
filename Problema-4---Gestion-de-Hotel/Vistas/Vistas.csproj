@@ -257,6 +257,9 @@
     <EmbeddedResource Include="Formularios\Reservas\frmModificarReserva.resx">
       <DependentUpon>frmModificarReserva.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reservas\frmVerReservas.resx">
+      <DependentUpon>frmVerReservas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Servicios\frmAgregarServicios.resx">
       <DependentUpon>frmAgregarServicios.cs</DependentUpon>
     </EmbeddedResource>
