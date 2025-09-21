@@ -228,7 +228,7 @@
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(212, 65);
             this.btnCliente.TabIndex = 63;
-            this.btnCliente.Text = "AgregarCliente";
+            this.btnCliente.Text = "Agregar Cliente";
             this.btnCliente.TextColor = System.Drawing.Color.White;
             this.btnCliente.UseVisualStyleBackColor = false;
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
