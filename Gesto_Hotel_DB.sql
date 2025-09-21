@@ -155,6 +155,8 @@ CREATE VIEW RESERVAS_HOTEL AS
 SELECT
 Habitaciones.numeroHabitacion AS [Habitación asignada],
 Clientes.nombreCliente + Clientes.apellidoCliente AS [Cliente asignado],
+Habitaciones.idHabitacion AS [Identificador de Habitacion],
+Servicios.idServicio AS [Numero de Servicio],
 Servicios.nombreServicio AS [Servicio contratado],
 Usuario.nombre + Usuario.apellido AS [Registrado por],
 Reservas.fechaReserva AS [Fecha de Reserva]

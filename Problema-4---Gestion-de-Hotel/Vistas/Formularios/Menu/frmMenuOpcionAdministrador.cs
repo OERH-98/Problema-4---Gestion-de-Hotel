@@ -298,5 +298,21 @@ namespace Vistas.Formularios.Menu
             }
 
         }
+
+        private void btnModificarReserva_Click(object sender, EventArgs e)
+        {
+            frmModificarReserva usuarios = new frmModificarReserva();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
     }
 }
