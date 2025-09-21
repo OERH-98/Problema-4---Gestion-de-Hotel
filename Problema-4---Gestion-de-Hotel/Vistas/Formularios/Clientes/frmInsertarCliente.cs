@@ -21,8 +21,63 @@ namespace Vistas.Formularios.Clientes
             InitializeComponent();
         }
 
+        private string ObtenerGeneroSeleccionado()
+        {
+            if (rbtnHombre.Checked)
+                return "Hombre";
+            else if (rbtnMujer.Checked)
+                return "Mujer";
+            else
+                return string.Empty; // o un valor por defecto
+        }
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                string.IsNullOrWhiteSpace(txtApellido.Text) ||
+                string.IsNullOrWhiteSpace(msktxtDui.Text) ||
+                string.IsNullOrWhiteSpace(txtCiudad.Text) ||
+                string.IsNullOrWhiteSpace(msktxtTelefono.Text) ||
+                (!rbtnHombre.Checked && !rbtnMujer.Checked))
+            {
+                DialogResult = IPES_CDD.Show("Por favor, complete todos los campos obligatorios.", "Campos Incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (txtNombre.Text.Any(char.IsDigit))
+            {
+                DialogResult = IPES_CDD.Show("El nombre no puede contener números.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (txtApellido.Text.Any(char.IsDigit))
+            {
+                DialogResult = IPES_CDD.Show("El apellido no puede contener números.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (!msktxtDui.MaskFull)
+            {
+                DialogResult = IPES_CDD.Show("El DUI está incompleto.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (!msktxtTelefono.MaskFull)
+            {
+                DialogResult = IPES_CDD.Show("El número de teléfono está incompleto.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (dtp1.Value > DateTime.Now)
+            {
+                DialogResult = IPES_CDD.Show("La fecha de cumpleaños no puede ser en el futuro.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (dtp1.Value < DateTime.Now.AddYears(-120))
+            {
+                DialogResult = IPES_CDD.Show("La fecha de cumpleaños no puede ser hace más de 120 años.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (dtp1.Value > DateTime.Now.AddYears(-18))
+            {
+                DialogResult = IPES_CDD.Show("El cliente debe ser mayor de 18 años.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             try
             {
                 ClientesHotel clientes = new ClientesHotel();
@@ -31,11 +86,12 @@ namespace Vistas.Formularios.Clientes
                 clientes.DUI = msktxtDui.Text;
                 clientes.DireccionCliente = txtCiudad.Text;
                 clientes.FechaCumpleanios = dtp1.Value;
+                clientes.Genero = ObtenerGeneroSeleccionado();
                 clientes.NumeroTelefono = msktxtTelefono.Text;
                 if (clientes.InsertarCliente())
                 {
                     DialogResult = IPES_CDD.Show("Cliente registrado con éxito", "Registro Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close();
+                    
                 }
                 else
                 {

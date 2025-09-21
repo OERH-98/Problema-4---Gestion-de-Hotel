@@ -88,6 +88,9 @@ namespace Vistas.Formularios.Servicios
                     {
                         DialogResult = IPES_CDD.Show("Servicio eliminado exitosamente.", "Eliminación Exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         MostrarServiciosExistentes();
+                        txtDescripcion.Clear();
+                        txtServicio.Clear();
+                        txtBusqueda.Clear();
                     }
                     else
                     {
@@ -103,6 +106,16 @@ namespace Vistas.Formularios.Servicios
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtServicio.Text.Trim()))
+            {
+                errorProvider.SetError(txtServicio, "El nombre del servicio no puede estar vacío.");
+                return;
+            }
+            if (string.IsNullOrEmpty(txtDescripcion.Text.Trim()))
+            {
+                errorProvider.SetError(txtDescripcion, "La descripción del servicio no puede estar vacía.");
+                return;
+            }
             ServiciosHotel servicio = new ServiciosHotel();
             try
             {

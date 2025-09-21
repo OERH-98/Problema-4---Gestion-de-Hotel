@@ -63,7 +63,8 @@ nombreCliente NVARCHAR (60) NOT NULL,
 apellidoCliente NVARCHAR (60) NOT NULL,
 fechaRegistroCliente DATETIME NOT NULL DEFAULT GETDATE(),
 fechaCumpleanios DATE NOT NULL,
-numeroTelefono VARCHAR NOT NULL,
+genero NVARCHAR(50) NOT NULL,
+numeroTelefono VARCHAR (15) NOT NULL,
 DUI VARCHAR (10) UNIQUE NOT NULL,
 direccionCliente NVARCHAR (150) NOT NULL);
 -- 5. Tabla de Reservas
@@ -177,6 +178,24 @@ Servicios.descripcionServicio AS [Descripción],
 Servicios.fechaRegistroServicio AS [Fecha de Registro]
 FROM Servicios;
 GO
+
+CREATE VIEW CLIENTELA AS
+Select Clientes.idCliente AS [Numero de Cliente],
+Clientes.nombreCliente AS [Nombre],
+Clientes.apellidoCliente AS [Apellido],
+Clientes.DUI AS [Dui],
+Clientes.direccionCliente AS [Direccion],
+Clientes.genero AS [Genero],
+Clientes.fechaCumpleanios AS [Fecha de Nacimiento],
+Clientes.numeroTelefono AS [Telefono],
+Clientes.fechaRegistroCliente AS [Fecha de Registro]
+FROM Clientes;
+GO
+
+CREATE VIEW Servicios_COMBOBOX AS
+Select Servicios.idServicio,
+Servicios.nombreServicio
+from Servicios
 --<------------------------------------------------>
 --<-------(Eliminar tablas y resetearlas)---------->
 --<------------------------------------------------>

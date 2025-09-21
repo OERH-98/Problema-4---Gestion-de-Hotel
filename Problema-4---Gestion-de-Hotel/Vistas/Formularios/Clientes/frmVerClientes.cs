@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vistas.Formularios.Menu;
 using Vistas.Formularios.Visualizador;
-
+using Vistas.Formularios.Componentes_Nuevos;
 namespace Vistas.Formularios.Clientes
 {
     public partial class frmVerClientes : Form
@@ -29,7 +29,7 @@ namespace Vistas.Formularios.Clientes
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al cargar los clientes: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                DialogResult = IPES_CDD.Show("Error al cargar los clientes: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

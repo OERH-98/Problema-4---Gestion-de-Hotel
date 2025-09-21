@@ -114,35 +114,23 @@
     <Compile Include="Formularios\Extra\frmAcercaDe.Designer.cs">
       <DependentUpon>frmAcercaDe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Login\frmActualizarPerfil.cs">
+    <Compile Include="Formularios\Cuentas\frmActualizarPerfil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Login\frmActualizarPerfil.Designer.cs">
+    <Compile Include="Formularios\Cuentas\frmActualizarPerfil.Designer.cs">
       <DependentUpon>frmActualizarPerfil.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Login\frmCrearCuentaAdministrador.cs">
+    <Compile Include="Formularios\Cuentas\frmCrearCuentaAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Login\frmCrearCuentaAdministrador.Designer.cs">
+    <Compile Include="Formularios\Cuentas\frmCrearCuentaAdministrador.Designer.cs">
       <DependentUpon>frmCrearCuentaAdministrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Login\frmLogin.cs">
+    <Compile Include="Formularios\Cuentas\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Login\frmLogin.Designer.cs">
+    <Compile Include="Formularios\Cuentas\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Login\frmRecuperarClave.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Login\frmRecuperarClave.Designer.cs">
-      <DependentUpon>frmRecuperarClave.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Login\frmVerTusDatos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Login\frmVerTusDatos.Designer.cs">
-      <DependentUpon>frmVerTusDatos.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Menu\frmMenuOpcionAdministrador.cs">
       <SubType>Form</SubType>
@@ -242,13 +230,13 @@
     <EmbeddedResource Include="Formularios\Extra\frmAcercaDe.resx">
       <DependentUpon>frmAcercaDe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Login\frmActualizarPerfil.resx">
+    <EmbeddedResource Include="Formularios\Cuentas\frmActualizarPerfil.resx">
       <DependentUpon>frmActualizarPerfil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Login\frmCrearCuentaAdministrador.resx">
+    <EmbeddedResource Include="Formularios\Cuentas\frmCrearCuentaAdministrador.resx">
       <DependentUpon>frmCrearCuentaAdministrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Login\frmLogin.resx">
+    <EmbeddedResource Include="Formularios\Cuentas\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Menu\frmMenuOpcionAdministrador.resx">
@@ -262,6 +250,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Principal\frmDashboard.resx">
       <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reservas\frmAgregarReserva.resx">
+      <DependentUpon>frmAgregarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reservas\frmModificarReserva.resx">
+      <DependentUpon>frmModificarReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Servicios\frmAgregarServicios.resx">
       <DependentUpon>frmAgregarServicios.cs</DependentUpon>

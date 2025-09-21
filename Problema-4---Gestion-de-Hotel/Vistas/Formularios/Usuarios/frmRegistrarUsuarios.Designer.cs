@@ -174,6 +174,7 @@
             this.lblMujer.Size = new System.Drawing.Size(65, 25);
             this.lblMujer.TabIndex = 59;
             this.lblMujer.Text = "Mujer";
+            this.lblMujer.Click += new System.EventHandler(this.lblMujer_Click);
             // 
             // lblHombre
             // 
@@ -188,6 +189,7 @@
             this.lblHombre.Size = new System.Drawing.Size(86, 25);
             this.lblHombre.TabIndex = 58;
             this.lblHombre.Text = "Hombre";
+            this.lblHombre.Click += new System.EventHandler(this.lblHombre_Click);
             // 
             // lblGenero
             // 

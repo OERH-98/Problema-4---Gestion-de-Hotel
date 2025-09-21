@@ -106,6 +106,15 @@ namespace Vistas.Formularios.Servicios
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtServicio.Text))
+            {
+                errorProvider.SetError(txtServicio, "El nombre del servicio es obligatorio.");
+                return;
+            }
+            else
+            {
+                errorProvider.SetError(txtServicio, string.Empty);
+            }
             try
             {
                 ServiciosHotel servicio = new ServiciosHotel();

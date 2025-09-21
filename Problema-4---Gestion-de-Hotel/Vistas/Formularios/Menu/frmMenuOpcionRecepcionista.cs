@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using Vistas.Formularios.Componentes_Nuevos;
 using Vistas.Formularios.Extra;
 using Vistas.Formularios.Login;
+using Vistas.Formularios.Reservas;
+using Vistas.Formularios.Servicios;
 using Vistas.Formularios.Visualizador;
 
 namespace Vistas.Formularios.Menu
@@ -162,6 +164,38 @@ namespace Vistas.Formularios.Menu
             // Actualiza la hora actual y el saludo cada segundo
             ActualizarHoraYSaludo();
             lblHoraActual.Text = DateTime.Now.ToString("h:mm tt"); // Actualiza la hora actual cada segundo con el even Tick del Timer
+        }
+
+        private void btnVerServicio_Click(object sender, EventArgs e)
+        {
+            frmVerServicios usuarios = new frmVerServicios();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
+
+        private void btnReserva_Click(object sender, EventArgs e)
+        {
+            frmAgregarReserva usuarios = new frmAgregarReserva();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
         }
     }
 }

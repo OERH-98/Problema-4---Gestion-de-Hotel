@@ -17,6 +17,8 @@ using Vistas.Formularios.Usuarios;
 using Vistas.Formularios.Menu;
 using Vistas.Formularios.Login;
 using Vistas.Formularios.Servicios;
+using Vistas.Formularios.Clientes;
+using Vistas.Formularios.Reservas;
 namespace Vistas.Formularios.Menu
 {
     public partial class frmMenuOpcionAdministrador : Form
@@ -246,6 +248,55 @@ namespace Vistas.Formularios.Menu
                 principal.pnlContenedor.Controls.Add(usuarios);
                 usuarios.Show();
             }
+        }
+
+        private void btnModificarCliente_Click(object sender, EventArgs e)
+        {
+            frmModificarCliente usuarios = new frmModificarCliente();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
+
+        private void btnAgregarCliente_Click(object sender, EventArgs e)
+        {
+            frmInsertarCliente usuarios = new frmInsertarCliente();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
+
+        private void btnReserva_Click(object sender, EventArgs e)
+        {
+            frmAgregarReserva usuarios = new frmAgregarReserva();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+
         }
     }
 }

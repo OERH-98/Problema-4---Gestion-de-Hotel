@@ -134,7 +134,17 @@ namespace Vistas.Formularios.Login
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             Empleadores modificaciones = new Empleadores();
-
+            if (Sesion.UsuarioActivo == null)
+            {
+                DialogResult = IPES_CDD.Show("No hay un usuario activo. Por favor, inicia sesión nuevamente.", "Usuario No Activo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (Sesion.UsuarioActivo.FotoPerfil != null && imagenBytes == null)
+            {
+                DialogResult = IPES_CDD.Show("No has seleccionado una nueva imagen para actualizar tu foto de perfil. Si deseas mantener la imagen actual, por favor selecciona una nueva imagen antes de continuar.",
+                              "Ninguna Nueva Imagen Seleccionada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             if (Sesion.UsuarioActivo.FotoPerfil == null && imagenBytes == null)
             {
                 DialogResult = IPES_CDD.Show("No has seleccionado ninguna imagen para actualizar tu foto de perfil. Por favor, selecciona una imagen antes de continuar.",

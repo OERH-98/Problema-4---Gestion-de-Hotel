@@ -44,6 +44,16 @@ namespace Modelos.Entidades
             return dataTables;
         }
 
+        public static DataTable CargarServiciosComboBox()
+        {
+            SqlConnection conexion = ConexionDB.conectar();
+            string consultaQuery = "SELECT *  FROM Servicios_COMBOBOX";
+            SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
+            DataTable dataTables = new DataTable();
+            add.Fill(dataTables);
+            return dataTables;
+        }
+
         public static DataTable BuscarServicio(string nombreServicio)
         {
             SqlConnection conexion = ConexionDB.conectar();
@@ -54,6 +64,7 @@ namespace Modelos.Entidades
             add.Fill(dataTables);
             return dataTables;
         }
+
 
         public bool ModificarServicio()
         {

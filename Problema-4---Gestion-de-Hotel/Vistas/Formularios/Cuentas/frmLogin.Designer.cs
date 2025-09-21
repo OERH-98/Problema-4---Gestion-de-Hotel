@@ -70,10 +70,10 @@
             // 
             this.txtClave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtClave.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtClave.Location = new System.Drawing.Point(293, 470);
+            this.txtClave.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.txtClave.Location = new System.Drawing.Point(293, 460);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(383, 26);
+            this.txtClave.Size = new System.Drawing.Size(383, 29);
             this.txtClave.TabIndex = 6;
             this.txtClave.UseSystemPasswordChar = true;
             // 
@@ -175,9 +175,9 @@
             this.pbOjo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbOjo1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbOjo1.Image = global::Vistas.Properties.Resources.icons8_invisible_96;
-            this.pbOjo1.Location = new System.Drawing.Point(675, 470);
+            this.pbOjo1.Location = new System.Drawing.Point(675, 460);
             this.pbOjo1.Name = "pbOjo1";
-            this.pbOjo1.Size = new System.Drawing.Size(42, 26);
+            this.pbOjo1.Size = new System.Drawing.Size(42, 29);
             this.pbOjo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbOjo1.TabIndex = 58;
             this.pbOjo1.TabStop = false;

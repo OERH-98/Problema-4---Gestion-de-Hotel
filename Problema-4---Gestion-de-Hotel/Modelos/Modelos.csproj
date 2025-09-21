@@ -60,8 +60,9 @@
     <Compile Include="Conexion\ConexionDB.cs" />
     <Compile Include="Entidades\ClientesHotel.cs" />
     <Compile Include="Entidades\Empleadores.cs" />
+    <Compile Include="Entidades\Habitaciones.cs" />
     <Compile Include="Entidades\Registrar_Usuarios.cs" />
-    <Compile Include="Entidades\Reservas.cs" />
+    <Compile Include="Entidades\Reservas_Hotel.cs" />
     <Compile Include="Entidades\Roles.cs" />
     <Compile Include="Entidades\ServiciosHotel.cs" />
     <Compile Include="Entidades\Sesion.cs" />

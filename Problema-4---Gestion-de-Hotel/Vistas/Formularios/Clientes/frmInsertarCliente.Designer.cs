@@ -46,9 +46,9 @@
             this.txtCiudad = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.pbCajaRegistro = new System.Windows.Forms.PictureBox();
-            this.labelTransparente1 = new LabelTransparente();
+            this.lblDUI = new LabelTransparente();
             this.msktxtDui = new System.Windows.Forms.MaskedTextBox();
+            this.pbCajaRegistro = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbCajaRegistro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,7 +123,7 @@
             this.lblFechaNacimiento.BackColor = System.Drawing.Color.Transparent;
             this.lblFechaNacimiento.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblFechaNacimiento.ForeColor = System.Drawing.Color.White;
-            this.lblFechaNacimiento.Location = new System.Drawing.Point(55, 424);
+            this.lblFechaNacimiento.Location = new System.Drawing.Point(55, 437);
             this.lblFechaNacimiento.Name = "lblFechaNacimiento";
             this.lblFechaNacimiento.Size = new System.Drawing.Size(201, 25);
             this.lblFechaNacimiento.TabIndex = 53;
@@ -198,7 +198,7 @@
             // 
             this.dtp1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.dtp1.Location = new System.Drawing.Point(60, 461);
+            this.dtp1.Location = new System.Drawing.Point(60, 475);
             this.dtp1.Name = "dtp1";
             this.dtp1.Size = new System.Drawing.Size(322, 27);
             this.dtp1.TabIndex = 45;
@@ -295,30 +295,18 @@
             this.txtNombre.Size = new System.Drawing.Size(325, 27);
             this.txtNombre.TabIndex = 11;
             // 
-            // pbCajaRegistro
+            // lblDUI
             // 
-            this.pbCajaRegistro.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbCajaRegistro.BackColor = System.Drawing.Color.Transparent;
-            this.pbCajaRegistro.Image = global::Vistas.Properties.Resources.caga_registro_v2;
-            this.pbCajaRegistro.Location = new System.Drawing.Point(30, 6);
-            this.pbCajaRegistro.Name = "pbCajaRegistro";
-            this.pbCajaRegistro.Size = new System.Drawing.Size(398, 591);
-            this.pbCajaRegistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbCajaRegistro.TabIndex = 62;
-            this.pbCajaRegistro.TabStop = false;
-            // 
-            // labelTransparente1
-            // 
-            this.labelTransparente1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelTransparente1.AutoSize = true;
-            this.labelTransparente1.BackColor = System.Drawing.Color.Transparent;
-            this.labelTransparente1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.labelTransparente1.ForeColor = System.Drawing.Color.White;
-            this.labelTransparente1.Location = new System.Drawing.Point(55, 505);
-            this.labelTransparente1.Name = "labelTransparente1";
-            this.labelTransparente1.Size = new System.Drawing.Size(46, 25);
-            this.labelTransparente1.TabIndex = 63;
-            this.labelTransparente1.Text = "DUI";
+            this.lblDUI.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblDUI.AutoSize = true;
+            this.lblDUI.BackColor = System.Drawing.Color.Transparent;
+            this.lblDUI.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblDUI.ForeColor = System.Drawing.Color.White;
+            this.lblDUI.Location = new System.Drawing.Point(55, 505);
+            this.lblDUI.Name = "lblDUI";
+            this.lblDUI.Size = new System.Drawing.Size(46, 25);
+            this.lblDUI.TabIndex = 63;
+            this.lblDUI.Text = "DUI";
             // 
             // msktxtDui
             // 
@@ -331,6 +319,18 @@
             this.msktxtDui.Size = new System.Drawing.Size(325, 27);
             this.msktxtDui.TabIndex = 64;
             // 
+            // pbCajaRegistro
+            // 
+            this.pbCajaRegistro.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbCajaRegistro.BackColor = System.Drawing.Color.Transparent;
+            this.pbCajaRegistro.Image = global::Vistas.Properties.Resources.caga_registro_v2;
+            this.pbCajaRegistro.Location = new System.Drawing.Point(30, 6);
+            this.pbCajaRegistro.Name = "pbCajaRegistro";
+            this.pbCajaRegistro.Size = new System.Drawing.Size(398, 591);
+            this.pbCajaRegistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCajaRegistro.TabIndex = 62;
+            this.pbCajaRegistro.TabStop = false;
+            // 
             // frmInsertarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -339,7 +339,7 @@
             this.ClientSize = new System.Drawing.Size(1035, 609);
             this.Controls.Add(this.msktxtDui);
             this.Controls.Add(this.btnMenu);
-            this.Controls.Add(this.labelTransparente1);
+            this.Controls.Add(this.lblDUI);
             this.Controls.Add(this.lblMujer);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.lblHombre);
@@ -370,7 +370,7 @@
 
         #endregion
         private System.Windows.Forms.MaskedTextBox msktxtDui;
-        private LabelTransparente labelTransparente1;
+        private LabelTransparente lblDUI;
         private LabelTransparente lblMujer;
         private LabelTransparente lblHombre;
         private LabelTransparente lblGenero;

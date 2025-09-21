@@ -32,9 +32,8 @@
             this.pnlArriba = new System.Windows.Forms.Panel();
             this.lblIndicador = new LabelTransparente();
             this.btnModificarReserva = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
-            this.btnInsertarServicio = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
+            this.btnVerServicio = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.btnAcercaDe = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
-            this.btnCuenta = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl7 = new System.Windows.Forms.Panel();
             this.btnFotoPerfil = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.btnCerrarSesión = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
@@ -58,11 +57,10 @@
             this.pnl2 = new System.Windows.Forms.Panel();
             this.pnl1 = new System.Windows.Forms.Panel();
             this.pnlArriba.SuspendLayout();
-            this.pnl7.SuspendLayout();
             this.pnlAbajo.SuspendLayout();
             this.pnlElemento.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
-            this.pnl9.SuspendLayout();
+            this.pnl8.SuspendLayout();
             this.pnl4.SuspendLayout();
             this.tbpnlBotones.SuspendLayout();
             this.pnl5.SuspendLayout();
@@ -116,26 +114,27 @@
             this.btnModificarReserva.TextColor = System.Drawing.Color.White;
             this.btnModificarReserva.UseVisualStyleBackColor = false;
             // 
-            // btnInsertarServicio
+            // btnVerServicio
             // 
-            this.btnInsertarServicio.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnInsertarServicio.BackColor = System.Drawing.Color.Black;
-            this.btnInsertarServicio.BackgroundColor = System.Drawing.Color.Black;
-            this.btnInsertarServicio.BorderColor = System.Drawing.Color.White;
-            this.btnInsertarServicio.BorderRadius = 20;
-            this.btnInsertarServicio.BorderSize = 4;
-            this.btnInsertarServicio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInsertarServicio.FlatAppearance.BorderSize = 0;
-            this.btnInsertarServicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInsertarServicio.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
-            this.btnInsertarServicio.ForeColor = System.Drawing.Color.White;
-            this.btnInsertarServicio.Location = new System.Drawing.Point(96, 56);
-            this.btnInsertarServicio.Name = "btnInsertarServicio";
-            this.btnInsertarServicio.Size = new System.Drawing.Size(212, 65);
-            this.btnInsertarServicio.TabIndex = 63;
-            this.btnInsertarServicio.Text = "Insertar Servicios";
-            this.btnInsertarServicio.TextColor = System.Drawing.Color.White;
-            this.btnInsertarServicio.UseVisualStyleBackColor = false;
+            this.btnVerServicio.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnVerServicio.BackColor = System.Drawing.Color.Black;
+            this.btnVerServicio.BackgroundColor = System.Drawing.Color.Black;
+            this.btnVerServicio.BorderColor = System.Drawing.Color.White;
+            this.btnVerServicio.BorderRadius = 20;
+            this.btnVerServicio.BorderSize = 4;
+            this.btnVerServicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVerServicio.FlatAppearance.BorderSize = 0;
+            this.btnVerServicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerServicio.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            this.btnVerServicio.ForeColor = System.Drawing.Color.White;
+            this.btnVerServicio.Location = new System.Drawing.Point(96, 56);
+            this.btnVerServicio.Name = "btnVerServicio";
+            this.btnVerServicio.Size = new System.Drawing.Size(212, 65);
+            this.btnVerServicio.TabIndex = 63;
+            this.btnVerServicio.Text = "Ver Servicios";
+            this.btnVerServicio.TextColor = System.Drawing.Color.White;
+            this.btnVerServicio.UseVisualStyleBackColor = false;
+            this.btnVerServicio.Click += new System.EventHandler(this.btnVerServicio_Click);
             // 
             // btnAcercaDe
             // 
@@ -150,7 +149,7 @@
             this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAcercaDe.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnAcercaDe.ForeColor = System.Drawing.Color.White;
-            this.btnAcercaDe.Location = new System.Drawing.Point(87, 57);
+            this.btnAcercaDe.Location = new System.Drawing.Point(87, 56);
             this.btnAcercaDe.Name = "btnAcercaDe";
             this.btnAcercaDe.Size = new System.Drawing.Size(212, 65);
             this.btnAcercaDe.TabIndex = 63;
@@ -159,30 +158,8 @@
             this.btnAcercaDe.UseVisualStyleBackColor = false;
             this.btnAcercaDe.Click += new System.EventHandler(this.btnAcercaDe_Click);
             // 
-            // btnCuenta
-            // 
-            this.btnCuenta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCuenta.BackColor = System.Drawing.Color.Black;
-            this.btnCuenta.BackgroundColor = System.Drawing.Color.Black;
-            this.btnCuenta.BorderColor = System.Drawing.Color.White;
-            this.btnCuenta.BorderRadius = 20;
-            this.btnCuenta.BorderSize = 4;
-            this.btnCuenta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCuenta.FlatAppearance.BorderSize = 0;
-            this.btnCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCuenta.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.btnCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCuenta.Location = new System.Drawing.Point(96, 51);
-            this.btnCuenta.Name = "btnCuenta";
-            this.btnCuenta.Size = new System.Drawing.Size(212, 65);
-            this.btnCuenta.TabIndex = 63;
-            this.btnCuenta.Text = "Ver tu Cuenta";
-            this.btnCuenta.TextColor = System.Drawing.Color.White;
-            this.btnCuenta.UseVisualStyleBackColor = false;
-            // 
             // pnl7
             // 
-            this.pnl7.Controls.Add(this.btnFotoPerfil);
             this.pnl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl7.Location = new System.Drawing.Point(3, 371);
             this.pnl7.Name = "pnl7";
@@ -202,7 +179,7 @@
             this.btnFotoPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFotoPerfil.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.btnFotoPerfil.ForeColor = System.Drawing.Color.White;
-            this.btnFotoPerfil.Location = new System.Drawing.Point(96, 52);
+            this.btnFotoPerfil.Location = new System.Drawing.Point(96, 51);
             this.btnFotoPerfil.Name = "btnFotoPerfil";
             this.btnFotoPerfil.Size = new System.Drawing.Size(212, 72);
             this.btnFotoPerfil.TabIndex = 63;
@@ -224,7 +201,7 @@
             this.btnCerrarSesión.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesión.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesión.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesión.Location = new System.Drawing.Point(87, 52);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(96, 42);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(212, 65);
             this.btnCerrarSesión.TabIndex = 58;
@@ -246,7 +223,7 @@
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Location = new System.Drawing.Point(87, 62);
+            this.btnDashboard.Location = new System.Drawing.Point(87, 56);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Size = new System.Drawing.Size(212, 65);
             this.btnDashboard.TabIndex = 63;
@@ -349,7 +326,6 @@
             // 
             // pnl9
             // 
-            this.pnl9.Controls.Add(this.btnCerrarSesión);
             this.pnl9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl9.Location = new System.Drawing.Point(857, 371);
             this.pnl9.Name = "pnl9";
@@ -358,6 +334,7 @@
             // 
             // pnl8
             // 
+            this.pnl8.Controls.Add(this.btnCerrarSesión);
             this.pnl8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl8.Location = new System.Drawing.Point(430, 371);
             this.pnl8.Name = "pnl8";
@@ -384,6 +361,7 @@
             this.btnReserva.Text = "Realizar Reserva";
             this.btnReserva.TextColor = System.Drawing.Color.White;
             this.btnReserva.UseVisualStyleBackColor = false;
+            this.btnReserva.Click += new System.EventHandler(this.btnReserva_Click);
             // 
             // tmrHoraActual
             // 
@@ -426,7 +404,7 @@
             // 
             // pnl5
             // 
-            this.pnl5.Controls.Add(this.btnCuenta);
+            this.pnl5.Controls.Add(this.btnFotoPerfil);
             this.pnl5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl5.Location = new System.Drawing.Point(430, 187);
             this.pnl5.Name = "pnl5";
@@ -435,7 +413,7 @@
             // 
             // pnl6
             // 
-            this.pnl6.Controls.Add(this.btnDashboard);
+            this.pnl6.Controls.Add(this.btnAcercaDe);
             this.pnl6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl6.Location = new System.Drawing.Point(857, 187);
             this.pnl6.Name = "pnl6";
@@ -444,7 +422,7 @@
             // 
             // pnl3
             // 
-            this.pnl3.Controls.Add(this.btnAcercaDe);
+            this.pnl3.Controls.Add(this.btnDashboard);
             this.pnl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl3.Location = new System.Drawing.Point(857, 3);
             this.pnl3.Name = "pnl3";
@@ -453,7 +431,7 @@
             // 
             // pnl2
             // 
-            this.pnl2.Controls.Add(this.btnInsertarServicio);
+            this.pnl2.Controls.Add(this.btnVerServicio);
             this.pnl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl2.Location = new System.Drawing.Point(430, 3);
             this.pnl2.Name = "pnl2";
@@ -484,13 +462,12 @@
             this.Load += new System.EventHandler(this.frmMenuOpcionRecepcionista_Load);
             this.pnlArriba.ResumeLayout(false);
             this.pnlArriba.PerformLayout();
-            this.pnl7.ResumeLayout(false);
             this.pnlAbajo.ResumeLayout(false);
             this.pnlAbajo.PerformLayout();
             this.pnlElemento.ResumeLayout(false);
             this.pnlElemento.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
-            this.pnl9.ResumeLayout(false);
+            this.pnl8.ResumeLayout(false);
             this.pnl4.ResumeLayout(false);
             this.tbpnlBotones.ResumeLayout(false);
             this.pnl5.ResumeLayout(false);
@@ -507,9 +484,8 @@
         private System.Windows.Forms.Panel pnlArriba;
         private LabelTransparente lblIndicador;
         private Componentes_Improvisados.IPESBotonRedondeado btnModificarReserva;
-        private Componentes_Improvisados.IPESBotonRedondeado btnInsertarServicio;
+        private Componentes_Improvisados.IPESBotonRedondeado btnVerServicio;
         private Componentes_Improvisados.IPESBotonRedondeado btnAcercaDe;
-        private Componentes_Improvisados.IPESBotonRedondeado btnCuenta;
         private System.Windows.Forms.Panel pnl7;
         private Componentes_Improvisados.IPESBotonRedondeado btnFotoPerfil;
         private Componentes_Improvisados.IPESBotonRedondeado btnCerrarSesión;

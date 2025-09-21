@@ -14,6 +14,7 @@ using Vistas.Formularios.Extra;
 using Vistas.Formularios.Login;
 using Vistas.Formularios.Visualizador;
 using Vistas.Formularios.Servicios;
+using Vistas.Formularios.Clientes;
 
 namespace Vistas.Formularios.Menu
 {
@@ -167,6 +168,22 @@ namespace Vistas.Formularios.Menu
         private void btnVerServicio_Click(object sender, EventArgs e)
         {
             frmVerServicios usuarios = new frmVerServicios();
+            usuarios.TopLevel = false;
+            usuarios.FormBorderStyle = FormBorderStyle.None;
+            usuarios.Dock = DockStyle.Fill;
+            // Nueva Forma de Abrir Formularios
+            frmContenedor principal = Application.OpenForms["frmContenedor"] as frmContenedor;
+            if (principal != null)
+            {
+                principal.pnlContenedor.Controls.Clear();
+                principal.pnlContenedor.Controls.Add(usuarios);
+                usuarios.Show();
+            }
+        }
+
+        private void btnVerCliente_Click(object sender, EventArgs e)
+        {
+            frmVerClientes usuarios = new frmVerClientes();
             usuarios.TopLevel = false;
             usuarios.FormBorderStyle = FormBorderStyle.None;
             usuarios.Dock = DockStyle.Fill;

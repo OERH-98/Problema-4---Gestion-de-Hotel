@@ -288,6 +288,11 @@ namespace Vistas.Formularios.Usuarios
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            if (imagenBytes == null)
+            {
+                DialogResult = IPES_CDD.Show("Por favor, selecciona una imagen antes de aceptar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             try
             {
                 Empleadores empleador = new Empleadores();
@@ -464,6 +469,8 @@ namespace Vistas.Formularios.Usuarios
                     msktxtTelefono.Clear();
                     txtCiudad.Clear();
                     pbPerfil.Image = null;
+                    rbtnMujer.Checked = false;
+                    rbtnHombre.Checked = false;
                     MostrarRecepcionistas();
                     MostrarGerentes();
                     cbRol.SelectedIndex = -1;
@@ -520,6 +527,8 @@ namespace Vistas.Formularios.Usuarios
                         msktxtTelefono.Clear();
                         txtCiudad.Clear();
                         pbPerfil.Image = null;
+                        rbtnHombre.Checked = false;
+                        rbtnMujer.Checked = false;
                         MostrarGerentes();
                         cbRol.SelectedIndex = -1;
                         dtp1.Value = DateTime.Now;
@@ -561,6 +570,8 @@ namespace Vistas.Formularios.Usuarios
                         txtCiudad.Clear();
                         pbPerfil.Image = null;
                         MostrarRecepcionistas();
+                        rbtnHombre.Checked = false;
+                        rbtnMujer.Checked = false;
                         cbRol.SelectedIndex = -1;
                         dtp1.Value = DateTime.Now;
                     }
@@ -574,6 +585,16 @@ namespace Vistas.Formularios.Usuarios
             { 
                 DialogResult = IPES_CDD.Show("Por favor, selecciona un recepcionista para eliminar.", "Selección Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void lblHombre_Click(object sender, EventArgs e)
+        {
+            rbtnHombre.Checked = true;
+        }
+
+        private void lblMujer_Click(object sender, EventArgs e)
+        {
+            rbtnMujer.Checked = true;
         }
     }
 }

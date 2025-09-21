@@ -33,20 +33,18 @@
             this.lblTiempo = new LabelTransparente();
             this.lblNombreSistemaUsuario = new LabelTransparente();
             this.pnlElemento = new System.Windows.Forms.Panel();
-            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.tbpnlBotones = new System.Windows.Forms.TableLayoutPanel();
             this.pnl12 = new System.Windows.Forms.Panel();
             this.btnAcercaDe = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl11 = new System.Windows.Forms.Panel();
-            this.btnCuenta = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl10 = new System.Windows.Forms.Panel();
             this.btnDashboard = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl9 = new System.Windows.Forms.Panel();
-            this.a = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
+            this.btnModificarCliente = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl8 = new System.Windows.Forms.Panel();
             this.btnFotoPerfil = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl7 = new System.Windows.Forms.Panel();
-            this.btnEliminarReserva = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
+            this.btnAgregarCliente = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl4 = new System.Windows.Forms.Panel();
             this.btnModificarReserva = new Vistas.Formularios.Componentes_Improvisados.IPESBotonRedondeado();
             this.pnl5 = new System.Windows.Forms.Panel();
@@ -66,11 +64,10 @@
             this.lblHoraActual = new System.Windows.Forms.Label();
             this.pnlArriba = new System.Windows.Forms.Panel();
             this.tmrHoraActual = new System.Windows.Forms.Timer(this.components);
+            this.pbFotoUsuario = new CustomControls.RJControls.PictureBoxRedondo();
             this.pnlElemento.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.tbpnlBotones.SuspendLayout();
             this.pnl12.SuspendLayout();
-            this.pnl11.SuspendLayout();
             this.pnl10.SuspendLayout();
             this.pnl9.SuspendLayout();
             this.pnl8.SuspendLayout();
@@ -84,6 +81,7 @@
             this.pnl13.SuspendLayout();
             this.pnlAbajo.SuspendLayout();
             this.pnlArriba.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIndicador
@@ -136,23 +134,6 @@
             this.pnlElemento.Name = "pnlElemento";
             this.pnlElemento.Size = new System.Drawing.Size(664, 152);
             this.pnlElemento.TabIndex = 61;
-            // 
-            // pbFotoUsuario
-            // 
-            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
-            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
-            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.pbFotoUsuario.BorderSize = 4;
-            this.pbFotoUsuario.GradientAngle = 50F;
-            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
-            this.pbFotoUsuario.Name = "pbFotoUsuario";
-            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
-            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbFotoUsuario.TabIndex = 58;
-            this.pbFotoUsuario.TabStop = false;
             // 
             // tbpnlBotones
             // 
@@ -219,33 +200,11 @@
             // 
             // pnl11
             // 
-            this.pnl11.Controls.Add(this.btnCuenta);
             this.pnl11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl11.Location = new System.Drawing.Point(396, 288);
             this.pnl11.Name = "pnl11";
             this.pnl11.Size = new System.Drawing.Size(387, 89);
             this.pnl11.TabIndex = 62;
-            // 
-            // btnCuenta
-            // 
-            this.btnCuenta.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCuenta.BackColor = System.Drawing.Color.Black;
-            this.btnCuenta.BackgroundColor = System.Drawing.Color.Black;
-            this.btnCuenta.BorderColor = System.Drawing.Color.White;
-            this.btnCuenta.BorderRadius = 20;
-            this.btnCuenta.BorderSize = 4;
-            this.btnCuenta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCuenta.FlatAppearance.BorderSize = 0;
-            this.btnCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCuenta.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.btnCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCuenta.Location = new System.Drawing.Point(79, 9);
-            this.btnCuenta.Name = "btnCuenta";
-            this.btnCuenta.Size = new System.Drawing.Size(212, 65);
-            this.btnCuenta.TabIndex = 63;
-            this.btnCuenta.Text = "Ver tu Cuenta";
-            this.btnCuenta.TextColor = System.Drawing.Color.White;
-            this.btnCuenta.UseVisualStyleBackColor = false;
             // 
             // pnl10
             // 
@@ -280,33 +239,34 @@
             // 
             // pnl9
             // 
-            this.pnl9.Controls.Add(this.a);
+            this.pnl9.Controls.Add(this.btnModificarCliente);
             this.pnl9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl9.Location = new System.Drawing.Point(789, 193);
             this.pnl9.Name = "pnl9";
             this.pnl9.Size = new System.Drawing.Size(389, 89);
             this.pnl9.TabIndex = 60;
             // 
-            // a
+            // btnModificarCliente
             // 
-            this.a.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.a.BackColor = System.Drawing.Color.Black;
-            this.a.BackgroundColor = System.Drawing.Color.Black;
-            this.a.BorderColor = System.Drawing.Color.White;
-            this.a.BorderRadius = 20;
-            this.a.BorderSize = 4;
-            this.a.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.a.FlatAppearance.BorderSize = 0;
-            this.a.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.a.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
-            this.a.ForeColor = System.Drawing.Color.White;
-            this.a.Location = new System.Drawing.Point(88, 12);
-            this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(212, 65);
-            this.a.TabIndex = 64;
-            this.a.Text = "Modificar // Eliminar Cliente";
-            this.a.TextColor = System.Drawing.Color.White;
-            this.a.UseVisualStyleBackColor = false;
+            this.btnModificarCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnModificarCliente.BackColor = System.Drawing.Color.Black;
+            this.btnModificarCliente.BackgroundColor = System.Drawing.Color.Black;
+            this.btnModificarCliente.BorderColor = System.Drawing.Color.White;
+            this.btnModificarCliente.BorderRadius = 20;
+            this.btnModificarCliente.BorderSize = 4;
+            this.btnModificarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnModificarCliente.FlatAppearance.BorderSize = 0;
+            this.btnModificarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModificarCliente.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
+            this.btnModificarCliente.ForeColor = System.Drawing.Color.White;
+            this.btnModificarCliente.Location = new System.Drawing.Point(88, 12);
+            this.btnModificarCliente.Name = "btnModificarCliente";
+            this.btnModificarCliente.Size = new System.Drawing.Size(212, 65);
+            this.btnModificarCliente.TabIndex = 64;
+            this.btnModificarCliente.Text = "Modificar // Eliminar Cliente";
+            this.btnModificarCliente.TextColor = System.Drawing.Color.White;
+            this.btnModificarCliente.UseVisualStyleBackColor = false;
+            this.btnModificarCliente.Click += new System.EventHandler(this.btnModificarCliente_Click);
             // 
             // pnl8
             // 
@@ -341,33 +301,34 @@
             // 
             // pnl7
             // 
-            this.pnl7.Controls.Add(this.btnEliminarReserva);
+            this.pnl7.Controls.Add(this.btnAgregarCliente);
             this.pnl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl7.Location = new System.Drawing.Point(3, 193);
             this.pnl7.Name = "pnl7";
             this.pnl7.Size = new System.Drawing.Size(387, 89);
             this.pnl7.TabIndex = 60;
             // 
-            // btnEliminarReserva
+            // btnAgregarCliente
             // 
-            this.btnEliminarReserva.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEliminarReserva.BackColor = System.Drawing.Color.Black;
-            this.btnEliminarReserva.BackgroundColor = System.Drawing.Color.Black;
-            this.btnEliminarReserva.BorderColor = System.Drawing.Color.White;
-            this.btnEliminarReserva.BorderRadius = 20;
-            this.btnEliminarReserva.BorderSize = 4;
-            this.btnEliminarReserva.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEliminarReserva.FlatAppearance.BorderSize = 0;
-            this.btnEliminarReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarReserva.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.btnEliminarReserva.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarReserva.Location = new System.Drawing.Point(79, 9);
-            this.btnEliminarReserva.Name = "btnEliminarReserva";
-            this.btnEliminarReserva.Size = new System.Drawing.Size(212, 68);
-            this.btnEliminarReserva.TabIndex = 63;
-            this.btnEliminarReserva.Text = "Gestionar Habitaciones";
-            this.btnEliminarReserva.TextColor = System.Drawing.Color.White;
-            this.btnEliminarReserva.UseVisualStyleBackColor = false;
+            this.btnAgregarCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAgregarCliente.BackColor = System.Drawing.Color.Black;
+            this.btnAgregarCliente.BackgroundColor = System.Drawing.Color.Black;
+            this.btnAgregarCliente.BorderColor = System.Drawing.Color.White;
+            this.btnAgregarCliente.BorderRadius = 20;
+            this.btnAgregarCliente.BorderSize = 4;
+            this.btnAgregarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarCliente.FlatAppearance.BorderSize = 0;
+            this.btnAgregarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarCliente.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.btnAgregarCliente.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarCliente.Location = new System.Drawing.Point(79, 9);
+            this.btnAgregarCliente.Name = "btnAgregarCliente";
+            this.btnAgregarCliente.Size = new System.Drawing.Size(212, 68);
+            this.btnAgregarCliente.TabIndex = 63;
+            this.btnAgregarCliente.Text = "Agregar Cliente";
+            this.btnAgregarCliente.TextColor = System.Drawing.Color.White;
+            this.btnAgregarCliente.UseVisualStyleBackColor = false;
+            this.btnAgregarCliente.Click += new System.EventHandler(this.btnAgregarCliente_Click);
             // 
             // pnl4
             // 
@@ -552,6 +513,7 @@
             this.btnReserva.Text = "Realizar Reserva";
             this.btnReserva.TextColor = System.Drawing.Color.White;
             this.btnReserva.UseVisualStyleBackColor = false;
+            this.btnReserva.Click += new System.EventHandler(this.btnReserva_Click);
             // 
             // pnl13
             // 
@@ -575,7 +537,7 @@
             this.btnCerrarSesión.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesión.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesión.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesión.Location = new System.Drawing.Point(65, 12);
+            this.btnCerrarSesión.Location = new System.Drawing.Point(65, 3);
             this.btnCerrarSesión.Name = "btnCerrarSesión";
             this.btnCerrarSesión.Size = new System.Drawing.Size(241, 65);
             this.btnCerrarSesión.TabIndex = 58;
@@ -636,6 +598,23 @@
             // 
             this.tmrHoraActual.Tick += new System.EventHandler(this.tmrHoraActual_Tick);
             // 
+            // pbFotoUsuario
+            // 
+            this.pbFotoUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbFotoUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.pbFotoUsuario.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.pbFotoUsuario.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.pbFotoUsuario.BorderColor2 = System.Drawing.Color.HotPink;
+            this.pbFotoUsuario.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.pbFotoUsuario.BorderSize = 4;
+            this.pbFotoUsuario.GradientAngle = 50F;
+            this.pbFotoUsuario.Location = new System.Drawing.Point(37, 18);
+            this.pbFotoUsuario.Name = "pbFotoUsuario";
+            this.pbFotoUsuario.Size = new System.Drawing.Size(122, 122);
+            this.pbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFotoUsuario.TabIndex = 58;
+            this.pbFotoUsuario.TabStop = false;
+            // 
             // frmMenuOpcionAdministrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -654,10 +633,8 @@
             this.Load += new System.EventHandler(this.frmMenuOpcion_Load);
             this.pnlElemento.ResumeLayout(false);
             this.pnlElemento.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.tbpnlBotones.ResumeLayout(false);
             this.pnl12.ResumeLayout(false);
-            this.pnl11.ResumeLayout(false);
             this.pnl10.ResumeLayout(false);
             this.pnl9.ResumeLayout(false);
             this.pnl8.ResumeLayout(false);
@@ -673,6 +650,7 @@
             this.pnlAbajo.PerformLayout();
             this.pnlArriba.ResumeLayout(false);
             this.pnlArriba.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFotoUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -699,9 +677,9 @@
         private System.Windows.Forms.Panel pnl1;
         private System.Windows.Forms.Label lblHoraActual;
         private System.Windows.Forms.Timer tmrHoraActual;
-        private Componentes_Improvisados.IPESBotonRedondeado a;
+        private Componentes_Improvisados.IPESBotonRedondeado btnModificarCliente;
         private Componentes_Improvisados.IPESBotonRedondeado btnFotoPerfil;
-        private Componentes_Improvisados.IPESBotonRedondeado btnEliminarReserva;
+        private Componentes_Improvisados.IPESBotonRedondeado btnAgregarCliente;
         private Componentes_Improvisados.IPESBotonRedondeado btnModificarReserva;
         private Componentes_Improvisados.IPESBotonRedondeado btnModificarServicio;
         private Componentes_Improvisados.IPESBotonRedondeado btnModificarUsuarios;
@@ -712,7 +690,6 @@
         private System.Windows.Forms.Panel pnl12;
         private Componentes_Improvisados.IPESBotonRedondeado btnAcercaDe;
         private System.Windows.Forms.Panel pnl11;
-        private Componentes_Improvisados.IPESBotonRedondeado btnCuenta;
         private System.Windows.Forms.Panel pnl10;
         private Componentes_Improvisados.IPESBotonRedondeado btnDashboard;
         private System.Windows.Forms.Panel pnl13;

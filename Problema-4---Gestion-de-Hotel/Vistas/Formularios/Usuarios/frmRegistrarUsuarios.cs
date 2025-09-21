@@ -389,7 +389,7 @@ namespace Vistas.Formularios.Usuarios
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmLogin Inicio = new frmLogin();
+            frmMenuOpcionAdministrador Inicio = new frmMenuOpcionAdministrador();
             Inicio.TopLevel = false;
             Inicio.FormBorderStyle = FormBorderStyle.None;
             Inicio.Dock = DockStyle.Fill;
@@ -401,6 +401,16 @@ namespace Vistas.Formularios.Usuarios
                 principal.pnlContenedor.Controls.Add(Inicio);
                 Inicio.Show();
             }
+        }
+
+        private void lblHombre_Click(object sender, EventArgs e)
+        {
+            rbtnHombre.Checked = true;
+        }
+
+        private void lblMujer_Click(object sender, EventArgs e)
+        {
+            rbtnMujer.Checked = true;
         }
     }
 }
